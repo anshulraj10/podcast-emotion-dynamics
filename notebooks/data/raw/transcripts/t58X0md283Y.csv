@@ -1,0 +1,1507 @@
+start,duration,text,clean_text
+5.6,2.8,today what we're going to be talking,todaywhatweregoingtobetalking
+6.56,3.48,about is Right harnessing sort of the,aboutisrightharnessingsortofthe
+8.4,3.96,power of AI and the future of AI are an,powerofaiandthefutureofaiarean
+10.04,4.839,industry and a future of AI in multiple,industryandafutureofaiinmultiple
+12.36,5.16,Industries so that's why we have such a,industriessothatswhywehavesucha
+14.879,5.361,luminous uh panel of folks up here uh,luminousuhpaneloffolksuphereuh
+17.52,5.04,with backgrounds and expertise uh that,withbackgroundsandexpertiseuhthat
+20.24,5.0,span all the way from legal to Cellular,spanallthewayfromlegaltocellular
+22.56,5.32,to real time to uh slow time everything,torealtimetouhslowtimeeverything
+25.24,4.84,you could possibly want so why don't we,youcouldpossiblywantsowhydontwe
+27.88,3.96,just go down the the line real quick and,justgodownthethelinerealquickand
+30.08,2.72,everyone please introduce yourself those,everyonepleaseintroduceyourselfthose
+31.84,3.44,of you who have not met these,ofyouwhohavenotmetthese
+32.8,4.079,illustrious gentlemen so far and just,illustriousgentlemensofarandjust
+35.28,4.16,sort of you know say who you are what,sortofyouknowsaywhoyouarewhat
+36.879,5.721,you're up to and uh why they would love,youreuptoanduhwhytheywouldlove
+39.44,6.52,to hear from you uh I'm James tag I'm a,tohearfromyouuhimjamestagima
+42.6,6.959,reforming AI person um I did actually,reformingaipersonumididactually
+45.96,6.36,start an AI company before covid um,startanaicompanybeforecovidum
+49.559,5.121,which is currently in deep sleep but may,whichiscurrentlyindeepsleepbutmay
+52.32,4.96,reemerge which I can talk about uh as we,reemergewhichicantalkaboutuhaswe
+54.68,5.679,go along um and you probably know me,goalongumandyouprobablyknowme
+57.28,5.52,from studying Tree phone so I built um,fromstudyingtreephonesoibuiltum
+60.359,6.281,treeone which is an international mobile,treeonewhichisaninternationalmobile
+62.8,5.959,operator I'm Jeff Pulver and um I'm,operatorimjeffpulverandumim
+66.64,4.64,fairly deep into AI particularly with,fairlydeepintoaiparticularlywith
+68.759,4.961,voice and I'll get back to it tomorrow,voiceandillgetbacktoittomorrow
+71.28,5.44,but also here today just two words,butalsoheretodayjusttwowords
+73.72,3.0,virtualized,virtualized
+77.72,5.439,conversations I'm Diego goar and the,conversationsimdiegogoarandthe
+80.119,4.401,chief AI officer of XC member and,chiefaiofficerofxcmemberand
+83.159,5.0,ambassador of the,ambassadorofthe
+84.52,5.72,Linux Foundation beta and AI happy to be,linuxfoundationbetaandaihappytobe
+88.159,3.881,here,here
+90.24,4.12,I'm Christian cner I'm the co-founder,imchristiancnerimthecofounder
+92.04,5.16,and CTO of atomic Canyon we're currently,andctoofatomiccanyonwerecurrently
+94.36,5.119,doing AI in the nuclear energy sector,doingaiinthenuclearenergysector
+97.2,4.279,but I've certainly spent my time uh,butivecertainlyspentmytimeuh
+99.479,4.241,doing automatic speech recognition,doingautomaticspeechrecognition
+101.479,6.64,speech synthesis and uh you know even,speechsynthesisanduhyouknoweven
+103.72,8.039,some RFC 2833 time stamp,somerfc2833timestamp
+108.119,7.081,debugging I'm Anthony Manali I dabble in,debuggingimanthonymanaliidabblein
+111.759,6.241,voice over IP um and looking for,voiceoveripumandlookingfor
+115.2,5.16,practical applications uh in AI to,practicalapplicationsuhinaito
+118.0,5.92,combine it with the wonderful for World,combineitwiththewonderfulforworld
+120.36,5.84,of Telecom right well thank you all very,oftelecomrightwellthankyouallvery
+123.92,4.759,much uh and so yeah let's kick this off,muchuhandsoyeahletskickthisoff
+126.2,5.119,I think and just start talking about AI,ithinkandjuststarttalkingaboutai
+128.679,4.041,in in sort of in a general topic right,ininsortofinageneraltopicright
+131.319,2.881,so we're all working it's interesting,sowereallworkingitsinteresting
+132.72,3.32,working in atomic stuff now we love to,workinginatomicstuffnowweloveto
+134.2,3.8,hear more about that really interested,hearmoreaboutthatreallyinterested
+136.04,3.8,to hear people's use cases and what,tohearpeoplesusecasesandwhat
+138.0,3.319,they're doing with AI we'll start with,theyredoingwithaiwellstartwith
+139.84,2.96,sort of a practical sort of approach of,sortofapracticalsortofapproachof
+141.319,2.801,what everyone's really trying to think,whateveryonesreallytryingtothink
+142.8,2.96,that the future of what they could use,thatthefutureofwhattheycoulduse
+144.12,4.119,it for in the industry is and then,itforintheindustryisandthen
+145.76,4.8,potentially move into what we think the,potentiallymoveintowhatwethinkthe
+148.239,3.441,future of where this is going I know a,futureofwherethisisgoingiknowa
+150.56,2.6,lot of you have done a lot of actual,lotofyouhavedonealotofactual
+151.68,3.32,real practical work and Jee I know you,realpracticalworkandjeeiknowyou
+153.16,3.32,have a lot of background in also the,havealotofbackgroundinalsothe
+155.0,3.519,policy side of things which is very,policysideofthingswhichisvery
+156.48,3.759,interesting so as first up like why,interestingsoasfirstuplikewhy
+158.519,6.201,don't we hear from some people about,dontwehearfromsomepeopleabout
+160.239,6.321,that and see where it going so um yes I,thatandseewhereitgoingsoumyesi
+164.72,5.439,have a little background in voice over,havealittlebackgroundinvoiceover
+166.56,7.039,ip2 and uh but on the AI front,ip2anduhbutontheaifront
+170.159,5.44,um I I I believe what the true value for,umiiibelievewhatthetruevaluefor
+173.599,4.121,AI particularly AI in business will come,aiparticularlyaiinbusinesswillcome
+175.599,4.56,from the second and third derivatives of,fromthesecondandthirdderivativesof
+177.72,4.4,the ability to discern and what's,theabilitytodiscernandwhats
+180.159,4.521,amazing is three and a half years ago a,amazingisthreeandahalfyearsagoa
+182.12,4.6,project kicked off at the ITF that's,projectkickedoffattheitfthats
+184.68,5.36,resulting in two new rfc's coming into,resultingintwonewrfcscominginto
+186.72,6.28,the vernacular this year one is called,thevernacularthisyearoneiscalled
+190.04,5.04,vcon for virtualized conversations and,vconforvirtualizedconversationsand
+193.0,4.44,uh it has on the team some of the folks,uhithasontheteamsomeofthefolks
+195.08,3.64,who worked on Sip and my very humble,whoworkedonsipandmyveryhumble
+197.44,3.4,opinion is that the introduction of,opinionisthattheintroductionof
+198.72,4.48,econs into this industry will be bigger,econsintothisindustrywillbebigger
+200.84,5.28,than Sip and there's another companion,thansipandtheresanothercompanion
+203.2,5.599,protocol uh called skit called uh which,protocoluhcalledskitcalleduhwhich
+206.12,4.839,is supply chain Integrity transport and,issupplychainintegritytransportand
+208.799,4.201,trust or transportation trust and the,trustortransportationtrustandthe
+210.959,4.121,two of them together offer amazing,twoofthemtogetherofferamazing
+213.0,7.72,things but the most valuable part of,thingsbutthemostvaluablepartof
+215.08,7.4,this is that the the information from uh,thisisthatthetheinformationfromuh
+220.72,4.64,the the,thethe
+222.48,5.64,conversations become a way to drive,conversationsbecomeawaytodrive
+225.36,5.28,business and never before in our history,businessandneverbeforeinourhistory
+228.12,4.479,of people and fact matter in the history,ofpeopleandfactmatterinthehistory
+230.64,3.959,of just the internet or even just in,ofjusttheinternetorevenjustin
+232.599,3.681,business as a whole have we had the,businessasawholehavewehadthe
+234.599,3.961,ability to not only it's it's not about,abilitytonotonlyitsitsnotabout
+236.28,3.92,recording it's understanding and then,recordingitsunderstandingandthen
+238.56,4.16,what happens because we now better,whathappensbecausewenowbetter
+240.2,4.84,information and and and that offers the,informationandandandthatoffersthe
+242.72,4.76,opportunity for Next Generation services,opportunityfornextgenerationservices
+245.04,3.839,but perhaps for some people here it's a,butperhapsforsomepeoplehereitsa
+247.48,3.64,chance for the very first time to get,chancefortheveryfirsttimetoget
+248.879,3.64,rid of flat rate pricing again no longer,ridofflatratepricingagainnolonger
+251.12,2.72,are we talking about dump pipes no,arewetalkingaboutdumppipesno
+252.519,3.36,longer we're talking about flat rate,longerweretalkingaboutflatrate
+253.84,4.239,pricing for a Communication Service,pricingforacommunicationservice
+255.879,5.561,we're talking about valuable information,weretalkingaboutvaluableinformation
+258.079,5.241,being delivered by understanding the,beingdeliveredbyunderstandingthe
+261.44,4.12,context and the subtlety of what a,contextandthesubtletyofwhata
+263.32,4.92,conversation is also from a public,conversationisalsofromapublic
+265.56,6.199,policy perspective this protocol at the,policyperspectivethisprotocolatthe
+268.24,5.6,ITF was created not not in the dark not,itfwascreatednotnotinthedarknot
+271.759,4.201,just by Engineers but by active,justbyengineersbutbyactive
+273.84,4.44,participation from folks from the from,participationfromfolksfromthefrom
+275.96,4.28,the EU dealing with gdpr dealing with,theeudealingwithgdprdealingwith
+278.28,4.68,regulatory work dealing with emergency,regulatoryworkdealingwithemergency
+280.24,5.12,services so you can be assured that if,servicessoyoucanbeassuredthatif
+282.96,4.519,you want to do compliance this is,youwanttodocompliancethisis
+285.36,4.119,compliance and the most assuring part of,complianceandthemostassuringpartof
+287.479,3.56,this technology is that within three or,thistechnologyisthatwithinthreeor
+289.479,4.121,four years it will be the standard that,fouryearsitwillbethestandardthat
+291.039,4.681,the government looks to to enforce AI,thegovernmentlookstotoenforceai
+293.6,3.36,regulation so if you're talking about,regulationsoifyouretalkingabout
+295.72,2.44,you know if right now if you call Delta,youknowifrightnowifyoucalldelta
+296.96,3.4,Airlines because you had a trouble I,airlinesbecauseyouhadatroublei
+298.16,4.44,don't know a few weeks ago some crowd,dontknowafewweeksagosomecrowd
+300.36,4.0,you know you you call you call and the,youknowyouyoucallyoucallandthe
+302.6,3.24,first thing you hear is this call is,firstthingyouhearisthiscallis
+304.36,3.6,being being recorded for quality,beingbeingrecordedforquality
+305.84,4.12,insurance there's no opt out you have no,insurancetheresnooptoutyouhaveno
+307.96,5.959,ability to opt out it's by default opt,abilitytooptoutitsbydefaultopt
+309.96,5.959,in and so in the very near future you as,inandsointheverynearfutureyouas
+313.919,5.041,a consumer will have the ability to find,aconsumerwillhavetheabilitytofind
+315.919,4.601,out where you've been recorded remove it,outwhereyouvebeenrecordedremoveit
+318.96,3.359,and for that matter take advantage of,andforthatmattertakeadvantageof
+320.52,4.08,what's learned from it and so when I,whatslearnedfromitandsowheni
+322.319,3.561,look at the future communications I like,lookatthefuturecommunicationsilike
+324.6,2.56,to think the last 30 years have been,tothinkthelast30yearshavebeen
+325.88,3.36,interesting it got us to where we are,interestingitgotustowhereweare
+327.16,3.72,today but what if I were to put my stake,todaybutwhatifiweretoputmystake
+329.24,4.76,in the ground to say what the future is,inthegroundtosaywhatthefutureis
+330.88,5.24,for us two words virtualized,forustwowordsvirtualized
+334.0,4.4,conversations understanding that will,conversationsunderstandingthatwill
+336.12,4.16,open the door of prosperity for the next,openthedoorofprosperityforthenext
+338.4,4.359,few trillion dollars to come into this,fewtrilliondollarstocomeintothis
+340.28,3.84,industry fascinating do you think that a,industryfascinatingdoyouthinkthata
+342.759,3.44,lot of that's going to have to come down,lotofthatsgoingtohavetocomedown
+344.12,3.639,sort of as a regulatory environment so,sortofasaregulatoryenvironmentso
+346.199,3.321,like that pushing things like these,likethatpushingthingslikethese
+347.759,3.081,virtual the Vons are very interesting,virtualthevonsareveryinteresting
+349.52,2.04,topic for those of you who don't know,topicforthoseofyouwhodontknow
+350.84,2.28,about it I think you're going be,aboutitithinkyouregoingbe
+351.56,4.24,covering that tomorrow as well right yes,coveringthattomorrowaswellrightyes
+353.12,4.639,Thomas and I will be right at about 1:45,thomasandiwillberightatabout145
+355.8,3.959,um so that's very we you know dive into,umsothatsveryweyouknowdiveinto
+357.759,5.201,the technical stuff then but do you,thetechnicalstuffthenbutdoyou
+359.759,5.641,think that it is a regulation question,thinkthatitisaregulationquestion
+362.96,4.12,where like the idea that people so in,whereliketheideathatpeoplesoin
+365.4,4.28,Europe right there's a much more strict,europerighttheresamuchmorestrict
+367.08,4.839,uh gdpr interpretation of what privacy,uhgdprinterpretationofwhatprivacy
+369.68,4.48,and data sovereignty means and how to,anddatasovereigntymeansandhowto
+371.919,3.84,get access to that does the US in,getaccesstothatdoestheusin
+374.16,3.72,particular need that is that what we're,particularneedthatisthatwhatwere
+375.759,3.84,going do you think that California what,goingdoyouthinkthatcaliforniawhat
+377.88,4.24,do you what do you think about that the,doyouwhatdoyouthinkaboutthatthe
+379.599,4.361,US needs lots of things uh but but the,usneedslotsofthingsuhbutbutthe
+382.12,4.199,the the value from this will not come,thethevaluefromthiswillnotcome
+383.96,3.88,from the threat of Regulation but rather,fromthethreatofregulationbutrather
+386.319,3.841,the value to business people because,thevaluetobusinesspeoplebecause
+387.84,4.12,imagine each of us here here are running,imagineeachofushereherearerunning
+390.16,3.879,a large multinational corporation with,alargemultinationalcorporationwith
+391.96,4.0,multiple operating divisions it'd be,multipleoperatingdivisionsitdbe
+394.039,4.321,really nice to know how our sales were,reallynicetoknowhowoursaleswere
+395.96,3.84,today how our sales were last week I,todayhowoursaleswerelastweeki
+398.36,3.32,like to love to know who's calling with,liketolovetoknowwhoscallingwith
+399.8,4.6,complaints I love to understand what the,complaintsilovetounderstandwhatthe
+401.68,4.959,issues are and being able to have,issuesareandbeingabletohave
+404.4,4.88,fact-based like you know if you will gbt,factbasedlikeyouknowifyouwillgbt
+406.639,4.201,like access to information that's coming,likeaccesstoinformationthatscoming
+409.28,4.359,through my do it's coming through the,throughmydoitscomingthroughthe
+410.84,4.639,telephones so I could proactively run my,telephonessoicouldproactivelyrunmy
+413.639,4.161,business based on what's Happening,businessbasedonwhatshappening
+415.479,3.921,that's the game changers no longer do we,thatsthegamechangersnolongerdowe
+417.8,3.2,have trailing indicators we're going to,havetrailingindicatorsweregoingto
+419.4,4.639,have leading indicators we're going to,haveleadingindicatorsweregoingto
+421.0,5.0,be able to proactively take action based,beabletoproactivelytakeactionbased
+424.039,4.44,on what's happening in our markets at,onwhatshappeninginourmarketsat
+426.0,4.24,the moment and so whether you're running,themomentandsowhetheryourerunning
+428.479,4.16,a small business a mediumsized business,asmallbusinessamediumsizedbusiness
+430.24,4.32,or a large corporation you'll be able to,oralargecorporationyoullbeableto
+432.639,3.921,do things which people may have inferred,dothingswhichpeoplemayhaveinferred
+434.56,4.319,you could always have done but in,youcouldalwayshavedonebutin
+436.56,5.4,reality you had to have this magical,realityyouhadtohavethismagical
+438.879,5.401,lineup of Internet plus LOM plus small,lineupofinternetpluslomplussmall
+441.96,3.919,language models plus the ability to,languagemodelsplustheabilityto
+444.28,4.639,communicate freely over the Internet,communicatefreelyovertheinternet
+445.879,4.76,through vo things to facilitate that so,throughvothingstofacilitatethatso
+448.919,3.361,I think if you look looking at where the,ithinkifyoulooklookingatwherethe
+450.639,3.801,next trillion dollar part of this,nexttrilliondollarpartofthis
+452.28,5.28,industry is going to come from it's it's,industryisgoingtocomefromitsits
+454.44,5.879,the certainly Industries like uh Banking,thecertainlyindustrieslikeuhbanking
+457.56,4.28,and and brokerage it's required by law,andandbrokerageitsrequiredbylaw
+460.319,3.521,and for that matter in medicine too to,andforthatmatterinmedicinetooto
+461.84,3.919,record every conversation so there's,recordeveryconversationsotheres
+463.84,4.16,nothing new there but it's from the,nothingnewtherebutitsfromthe
+465.759,4.321,opportunity to create Advanced business,opportunitytocreateadvancedbusiness
+468.0,4.08,services and the ability for service,servicesandtheabilityforservice
+470.08,3.72,providers to sell them to the companies,providerstosellthemtothecompanies
+472.08,3.44,or some companies to deploy them,orsomecompaniestodeploythem
+473.8,3.32,themselves that's where the next,themselvesthatswherethenext
+475.52,2.959,trillion dollar or2 trillion dollar has,trilliondollaror2trilliondollarhas
+477.12,3.479,come from and that's going to happen,comefromandthatsgoingtohappen
+478.479,3.881,tomorrow and while there is a lot about,tomorrowandwhilethereisalotabout
+480.599,5.44,hype about AI which I'm not going to get,hypeaboutaiwhichimnotgoingtoget
+482.36,6.2,into this stuff is real it's getting,intothisstuffisrealitsgetting
+486.039,4.28,stronger and our ability to understand,strongerandourabilitytounderstand
+488.56,4.56,this changes the way how we will do,thischangesthewayhowwewilldo
+490.319,4.641,business so from my perspective sure we,businesssofrommyperspectivesurewe
+493.12,3.4,can be compliant and we will be and we,canbecompliantandwewillbeandwe
+494.96,3.4,will protect people's private,willprotectpeoplesprivate
+496.52,3.28,information and we've learned from,informationandwevelearnedfrom
+498.36,4.48,Europe what we what's coming down the,europewhatwewhatscomingdownthe
+499.8,4.92,pike however as a business person for,pikehoweverasabusinesspersonfor
+502.84,4.52,the very first time a small business,theveryfirsttimeasmallbusiness
+504.72,5.64,gets the same tools as a large business,getsthesametoolsasalargebusiness
+507.36,5.559,and you have a a par which we've never,andyouhaveaaparwhichwevenever
+510.36,4.08,had before and I'm super excited about,hadbeforeandimsuperexcitedabout
+512.919,3.36,what this means to everyone involved in,whatthismeanstoeveryoneinvolvedin
+514.44,3.519,the ecosystem that's super interesting,theecosystemthatssuperinteresting
+516.279,4.88,and I know Tony know why's done a lot of,andiknowtonyknowwhysdonealotof
+517.959,5.361,work on you know implementing AI in,workonyouknowimplementingaiin
+521.159,4.601,terms of being able to give this sort of,termsofbeingabletogivethissortof
+523.32,3.92,technology to folks right so building,technologytofolksrightsobuilding
+525.76,2.72,off of what Jeff was talking about can,offofwhatjeffwastalkingaboutcan
+527.24,2.68,you talk a little about like what how,youtalkalittleaboutlikewhathow
+528.48,3.72,that's positioned like what it's good,thatspositionedlikewhatitsgood
+529.92,5.76,with and how people should be using,withandhowpeopleshouldbeusing
+532.2,6.24,it so it starts,itsoitstarts
+535.68,6.36,with you see that,withyouseethat
+538.44,5.16,AI llms are cool and you can kind of put,aillmsarecoolandyoucankindofput
+542.04,3.08,two and two together that you could,twoandtwotogetherthatyoucould
+543.6,5.16,figure out how to have a conversation,figureouthowtohaveaconversation
+545.12,6.68,with it um what it's really evolving,withitumwhatitsreallyevolving
+548.76,7.88,towards every year,towardseveryyear
+551.8,7.76,is employing the AI in a practical use,isemployingtheaiinapracticaluse
+556.64,4.36,case um and you think about the llm,caseumandyouthinkaboutthellm
+559.56,4.36,mostly as,mostlyas
+561.0,5.04,just almost like a software library that,justalmostlikeasoftwarelibrarythat
+563.92,5.479,you have to write an application around,youhavetowriteanapplicationaround
+566.04,5.6,right where it's a stream a stream of,rightwhereitsastreamastreamof
+569.399,3.401,decisions that you can kind of coers,decisionsthatyoucankindofcoers
+571.64,4.28,into what you,intowhatyou
+572.8,4.92,want but there's takes a lot of work to,wantbuttherestakesalotofworkto
+575.92,5.0,kind of orchestrate those things to kind,kindoforchestratethosethingstokind
+577.72,4.28,of actually feel useful so like I'm,ofactuallyfeelusefulsolikeim
+580.92,5.599,imagining,imagining
+582.0,8.0,soon you know virtual developers who can,soonyouknowvirtualdeveloperswhocan
+586.519,5.281,like one part of one system is deciding,likeonepartofonesystemisdeciding
+590.0,3.56,what the architecture is and then want,whatthearchitectureisandthenwant
+591.8,3.279,to break it down into the functions and,tobreakitdownintothefunctionsand
+593.56,3.8,then you write one of the functions and,thenyouwriteoneofthefunctionsand
+595.079,4.76,you run a unit test in real time at full,yourunaunittestinrealtimeatfull
+597.36,6.52,speed until you've created like you know,speeduntilyouvecreatedlikeyouknow
+599.839,6.961,whole application put it in a rest API,wholeapplicationputitinarestapi
+603.88,4.84,test it again um and as long as you have,testitagainumandaslongasyouhave
+606.8,3.64,something that's kind of that's kind of,somethingthatskindofthatskindof
+608.72,3.4,normal computer programming still,normalcomputerprogrammingstill
+610.44,6.48,because you're you're just taking this,becauseyoureyourejusttakingthis
+612.12,7.2,um feature that you can have it make,umfeaturethatyoucanhaveitmake
+616.92,6.72,Dynamic,dynamic
+619.32,5.959,decisions and wrap it up into a a a loop,decisionsandwrapitupintoaaaloop
+623.64,3.879,you know so that you can get the right,youknowsothatyoucangettheright
+625.279,4.041,thing so one of the things that we've,thingsooneofthethingsthatweve
+627.519,5.88,been doing for years is building our,beendoingforyearsisbuildingour
+629.32,6.199,ivrs for people um we've made ivrs like,ivrsforpeopleumwevemadeivrslike
+633.399,4.401,a lot easier over the years um they,aloteasierovertheyearsumthey
+635.519,4.0,started out pretty rigid and you would,startedoutprettyrigidandyouwould
+637.8,3.12,just kind of fill out a few answers to,justkindoffilloutafewanswersto
+639.519,3.041,questions and maybe you could record,questionsandmaybeyoucouldrecord
+640.92,3.64,audio files and that's like your,audiofilesandthatslikeyour
+642.56,4.839,contribution to it and then that it,contributiontoitandthenthatit
+644.56,4.68,would take forever to make one um and,wouldtakeforevertomakeoneumand
+647.399,4.521,then we started allowing you to write it,thenwestartedallowingyoutowriteit
+649.24,4.039,as scripts and then pretty soon the TTS,asscriptsandthenprettysoonthetts
+651.92,3.359,sounded so good you didn't need to,soundedsogoodyoudidntneedto
+653.279,4.281,bother making like actual audio prompts,bothermakinglikeactualaudioprompts
+655.279,4.761,but we went back so far that we used to,butwewentbacksofarthatweusedto
+657.56,4.12,even we were multilingual with sound,evenweweremultilingualwithsound
+660.04,3.919,files that were chopped up in little,filesthatwerechoppedupinlittle
+661.68,5.48,pieces where it would be like you have,pieceswhereitwouldbelikeyouhave
+663.959,5.68,17 messages and it could say that in any,17messagesanditcouldsaythatinany
+667.16,6.2,different language on demand um so we've,differentlanguageondemandumsoweve
+669.639,6.0,been doing this forever um and what we,beendoingthisforeverumandwhatwe
+673.36,5.84,thought was a quick insertion point into,thoughtwasaquickinsertionpointinto
+675.639,7.041,this is that our kind of,thisisthatourkindof
+679.2,7.48,Pinocchio just needed a soul so we got,pinocchiojustneededasoulsowegot
+682.68,6.68,this llm integration in an orchestrator,thisllmintegrationinanorchestrator
+686.68,6.0,so that it could control all of these,sothatitcouldcontrolallofthese
+689.36,6.08,parts that we already had all at once,partsthatwealreadyhadallatonce
+692.68,4.599,and run do that run Loop making sure it,andrundothatrunloopmakingsureit
+695.44,4.839,works and then calling back to real,worksandthencallingbacktoreal
+697.279,5.201,computer programs to validate so that,computerprogramstovalidatesothat
+700.279,5.481,way you make an ivr that you put into,wayyoumakeanivrthatyouputinto
+702.48,4.2,place that you know you can trick people,placethatyouknowyoucantrickpeople
+705.76,3.12,because they don't want to leave a,becausetheydontwanttoleavea
+706.68,4.12,voicemail they just did too late like,voicemailtheyjustdidtoolatelike
+708.88,4.24,they AI answers the phone says how you,theyaianswersthephonesayshowyou
+710.8,4.92,doing like I'm looking for Fred he's not,doinglikeimlookingforfredhesnot
+713.12,5.04,here right now um why you calling he,hererightnowumwhyyoucallinghe
+715.72,4.119,tells you you like to leave a message no,tellsyouyouliketoleaveamessageno
+718.16,3.44,thanks a little too late,thanksalittletoolate
+719.839,3.401,just recorded that and also the,justrecordedthatandalsothe
+721.6,4.84,transcript has been sent so the ticket's,transcripthasbeensentsothetickets
+723.24,5.399,been open someone's going to call you um,beenopensomeonesgoingtocallyouum
+726.44,4.12,so you these ivrs are better cuz you,soyoutheseivrsarebettercuzyou
+728.639,4.241,don't have like you just want to run,donthavelikeyoujustwanttorun
+730.56,5.2,when you hear one like please listen,whenyouhearonelikepleaselisten
+732.88,5.12,carefully is are messages have changed,carefullyisaremessageshavechanged
+735.76,4.68,recently and then you're just like no,recentlyandthenyourejustlikeno
+738.0,6.72,click you know so now you actually have,clickyouknowsonowyouactuallyhave
+740.44,6.36,something you can like use so for us,somethingyoucanlikeusesoforus
+744.72,4.16,that was exciting that we could take,thatwasexcitingthatwecouldtake
+746.8,4.479,kind of all these pieces and bring them,kindofallthesepiecesandbringthem
+748.88,7.36,to life almost so there's still a big,tolifealmostsotheresstillabig
+751.279,7.841,element of uh designing stuff but now,elementofuhdesigningstuffbutnow
+756.24,4.839,that hard part is erased and I think the,thathardpartiserasedandithinkthe
+759.12,3.44,same thing is going to happen with I,samethingisgoingtohappenwithi
+761.079,4.12,mean it's starting that the phrase is,meanitsstartingthatthephraseis
+762.56,5.959,starting to be coined of like agentic,startingtobecoinedoflikeagentic
+765.199,4.841,services and you know we say AI agents,servicesandyouknowwesayaiagents
+768.519,3.76,because that's what everyone calls them,becausethatswhateveryonecallsthem
+770.04,3.84,but you know like an AI agent is really,butyouknowlikeanaiagentisreally
+772.279,3.281,more than that it could be anything you,morethanthatitcouldbeanythingyou
+773.88,2.88,write like we have a swimel generator,writelikewehaveaswimelgenerator
+775.56,2.839,we're trying to make we talked about,weretryingtomakewetalkedabout
+776.76,4.199,swimel earlier today it's a cool,swimelearliertodayitsacool
+778.399,4.88,language to create on demand routing and,languagetocreateondemandroutingand
+780.959,4.481,AI agents so we've already,aiagentssowevealready
+783.279,6.961,successfully have experiment where we,successfullyhaveexperimentwherewe
+785.44,7.12,use an llm to generate an AI agent from,useanllmtogenerateanaiagentfrom
+790.24,4.24,swim all like make me an AI agent that,swimalllikemakemeanaiagentthat
+792.56,4.16,looks up a joke on the website and tells,looksupajokeonthewebsiteandtells
+794.48,4.96,me a joke randomly and actually spit out,meajokerandomlyandactuallyspitout
+796.72,5.16,the swimel just called it on the phone,theswimeljustcalleditonthephone
+799.44,4.759,asked us a looked up I can have bad joke,askedusalookedupicanhavebadjoke
+801.88,5.44,joke pulled it down and set it you know,jokepulleditdownandsetityouknow
+804.199,4.921,so like the the AI is making more AI,solikethetheaiismakingmoreai
+807.32,5.4,right so here comes Skynet right imagine,rightsoherecomesskynetrightimagine
+809.12,5.32,imagine if they we just saw a talk where,imagineiftheywejustsawatalkwhere
+812.72,3.679,deploying all that kubernetes stuff,deployingallthatkubernetesstuff
+814.44,3.68,right if you connected the AI to that,rightifyouconnectedtheaitothat
+816.399,3.481,and let it just spit out the scripts and,andletitjustspitoutthescriptsand
+818.12,4.56,make the kubernetes come up it starts,makethekubernetescomeupitstarts
+819.88,4.72,making itself uh extra compute resources,makingitselfuhextracomputeresources
+822.68,3.599,so that it can solve all the problems,sothatitcansolvealltheproblems
+824.6,3.799,we're taking too long to solve it,weretakingtoolongtosolveit
+826.279,4.201,doesn't need to be alive right just like,doesntneedtobealiverightjustlike
+828.399,3.521,any computer program the first virus was,anycomputerprogramthefirstviruswas
+830.48,3.4,just two programs that keep trying to,justtwoprogramsthatkeeptryingto
+831.92,3.44,start each other you kill one of them,starteachotheryoukilloneofthem
+833.88,3.319,the other one starts it again and you,theotheronestartsitagainandyou
+835.36,4.279,can't get rid of it it's you know so,cantgetridofititsyouknowso
+837.199,4.161,like it going to have to be l it just,likeitgoingtohavetobelitjust
+839.639,3.801,has to be given instructions to never,hastobegiveninstructionstonever
+841.36,3.839,stop and you could get it to do all,stopandyoucouldgetittodoall
+843.44,4.6,kinds of stuff without like worrying,kindsofstuffwithoutlikeworrying
+845.199,4.961,about that and don't try tricking it by,aboutthatanddonttrytrickingitby
+848.04,3.52,telling it 2 plus 2 equal 5 until it,tellingit2plus2equal5untilit
+850.16,3.4,finally agrees with you because it's,finallyagreeswithyoubecauseits
+851.56,3.959,just getting fed up with you and and,justgettingfedupwithyouandand
+853.56,3.639,just playing along at that point right,justplayingalongatthatpointright
+855.519,3.201,that's great I mean and James this is,thatsgreatimeanandjamesthisis
+857.199,3.601,some stuff that you were talking about,somestuffthatyouweretalkingabout
+858.72,3.72,years ago right three or four years ago,yearsagorightthreeorfouryearsago
+860.8,2.68,you were talking about AI agents and the,youweretalkingaboutaiagentsandthe
+862.44,3.079,idea of how they could be interfaced,ideaofhowtheycouldbeinterfaced
+863.48,3.32,with Communications and I mean part of,withcommunicationsandimeanpartof
+865.519,3.081,the hard part of this too is in this,thehardpartofthistooisinthis
+866.8,3.52,industry right doing things with AI,industryrightdoingthingswithai
+868.6,3.56,involves to do them in real time which,involvestodotheminrealtimewhich
+870.32,4.72,we all know is like the hardest form of,weallknowislikethehardestformof
+872.16,4.679,doing any of this stuff um so there's,doinganyofthisstuffumsotheres
+875.04,3.56,some I'm curious to know your thoughts,someimcurioustoknowyourthoughts
+876.839,3.201,about that kind of thing okay so what am,aboutthatkindofthingokaysowhatam
+878.6,3.359,I doing at the moment I I build mobile,idoingatthemomentiibuildmobile
+880.04,3.76,networks I'm building another mobile,networksimbuildinganothermobile
+881.959,3.921,network it's called World mobile it will,networkitscalledworldmobileitwill
+883.8,4.36,launch in a few weeks time in the,launchinafewweekstimeinthe
+885.88,5.959,USA um,usaum
+888.16,6.16,yep available from your favorite browser,yepavailablefromyourfavoritebrowser
+891.839,4.12,whatever um so the problem with building,whateverumsotheproblemwithbuilding
+894.32,3.36,a mobile network is if you do it the,amobilenetworkisifyoudoitthe
+895.959,3.721,traditional way in America and you say I,traditionalwayinamericaandyousayi
+897.68,5.279,want to get you know like 10% of the US,wanttogetyouknowlike10oftheus
+899.68,5.0,customers it'll cost you $50 billion and,customersitllcostyou50billionand
+902.959,7.041,you think oh well that's all on towers,youthinkohwellthatsallontowers
+904.68,8.079,and so on no uh um 60% of that money is,andsoonnouhum60ofthatmoneyis
+910.0,5.199,on C customer acquisition which is,onccustomeracquisitionwhichis
+912.759,5.721,selling and all of that in Mobile is,sellingandallofthatinmobileis
+915.199,5.521,done by Voice because it's a large,donebyvoicebecauseitsalarge
+918.48,3.919,purchase right so you buy a car you go,purchaserightsoyoubuyacaryougo
+920.72,3.679,and talk to someone you buy a house you,andtalktosomeoneyoubuyahouseyou
+922.399,3.921,talk to someone very very rarely buy one,talktosomeoneveryveryrarelybuyone
+924.399,5.281,of these things without voice so I'm,ofthesethingswithoutvoicesoim
+926.32,6.92,very interested to see what AI can do um,veryinterestedtoseewhataicandoum
+929.68,6.56,to complete the sales process and the,tocompletethesalesprocessandthe
+933.24,5.039,big questions for me are um I like the,bigquestionsformeareumilikethe
+936.24,3.959,vcon idea so I can actually get the,vconideasoicanactuallygetthe
+938.279,3.841,conversation and I can do a groundhog,conversationandicandoagroundhog
+940.199,3.961,day thing and try it again and try it,daythingandtryitagainandtryit
+942.12,4.199,again until I get it get it right and,againuntiligetitgetitrightand
+944.16,3.56,they and they buy the the the product,theyandtheybuythethetheproduct
+946.319,4.601,because they're happy with what they',becausetheyrehappywithwhatthey
+947.72,5.359,they've heard um and the other is whe,theyveheardumandtheotheriswhe
+950.92,4.56,When I need to bring a real human into,whenineedtobringarealhumaninto
+953.079,4.961,the the loop do I need to do it early do,thetheloopdoineedtodoitearlydo
+955.48,4.44,I need to do it late could I actually,ineedtodoitlatecouldiactually
+958.04,4.279,you know use V and just go through it,youknowusevandjustgothroughit
+959.92,4.719,and get it right and and and never have,andgetitrightandandandneverhave
+962.319,3.76,a real human in there or is there some,arealhumaninthereoristheresome
+964.639,4.2,fundamental requirement but that's,fundamentalrequirementbutthats
+966.079,5.24,that's what I'm working on it I had to,thatswhatimworkingonitihadto
+968.839,4.041,go at this a few years ago technology,goatthisafewyearsagotechnology
+971.319,3.921,just wasn't there it was just you know,justwasntthereitwasjustyouknow
+972.88,5.079,now llms are out there and you know,nowllmsareoutthereandyouknow
+975.24,4.44,evolving very rapidly so it's perfectly,evolvingveryrapidlysoitsperfectly
+977.959,5.36,possible to do,possibletodo
+979.68,5.719,this using signal W yeah of thank you so,thisusingsignalwyeahofthankyouso
+983.319,3.681,much the uh and I think there's a,muchtheuhandithinktheresa
+985.399,3.641,interesting there too right so the vcon,interestingtheretoorightsothevcon
+987.0,4.24,idea or the idea that you can use the AI,ideaortheideathatyoucanusetheai
+989.04,3.64,and analyze and do voice after the fact,andanalyzeanddovoiceafterthefact
+991.24,3.44,right so you have the store dialogues,rightsoyouhavethestoredialogues
+992.68,3.399,you have a lot of conversational data,youhavealotofconversationaldata
+994.68,3.0,that you can then mine and then you,thatyoucanthenmineandthenyou
+996.079,3.2,haveon has to work on and sign wire does,haveonhastoworkonandsignwiredoes
+997.68,4.56,which is the real time like it has to,whichistherealtimelikeithasto
+999.279,4.441,happen now this is like latency is ultra,happennowthisislikelatencyisultra
+1002.24,3.56,critical and the trade-offs you have to,criticalandthetradeoffsyouhaveto
+1003.72,3.479,make in that regard uh are always like,makeinthatregarduharealwayslike
+1005.8,3.279,super interesting and I know Christian,superinterestingandiknowchristian
+1007.199,3.521,what are you working on right now and,whatareyouworkingonrightnowand
+1009.079,3.081,Diego I'd also love to hear your view on,diegoidalsolovetohearyourviewon
+1010.72,4.799,this like but what are you working on,thislikebutwhatareyouworkingon
+1012.16,4.64,now in the the world of the uh the your,nowinthetheworldoftheuhtheyour
+1015.519,4.0,new company with atomic power it's very,newcompanywithatomicpoweritsvery
+1016.8,4.88,interesting,interesting
+1019.519,4.8,uh so you know little bit of a pivot,uhsoyouknowlittlebitofapivot
+1021.68,6.08,even for me right,evenformeright
+1024.319,5.48,um so long story short my uh my my,umsolongstoryshortmyuhmymy
+1027.76,4.12,frequent collaborator more on the kind,frequentcollaboratormoreonthekind
+1029.799,4.561,of the business and entrepreneurial side,ofthebusinessandentrepreneurialside
+1031.88,4.36,um moved 10 miles away from Diablo,ummoved10milesawayfromdiablo
+1034.36,4.36,Canyon California's last active nuclear,canyoncaliforniaslastactivenuclear
+1036.24,3.92,power plant right and uh I think they're,powerplantrightanduhithinktheyre
+1038.72,3.56,the second largest employer in the,thesecondlargestemployerinthe
+1040.16,4.2,county something like that so you would,countysomethinglikethatsoyouwould
+1042.28,4.2,uh you know be at a coaching his kids,uhyouknowbeatacoachinghiskids
+1044.36,3.76,soccer game something like that oh you,soccergamesomethinglikethatohyou
+1046.48,3.199,work at the plant oh wow you guys are,workattheplantohwowyouguysare
+1048.12,4.28,splitting Adams over there I bet your,splittingadamsoverthereibetyour
+1049.679,5.201,technology stack is incredible mhm they,technologystackisincrediblemhmthey
+1052.4,5.72,would laugh hysterically every single,wouldlaughhystericallyeverysingle
+1054.88,5.36,time uh found out really quickly um you,timeuhfoundoutreallyquicklyumyou
+1058.12,3.88,know regardless of any uh you know,knowregardlessofanyuhyouknow
+1060.24,5.6,preconceived notions of nuclear power,preconceivednotionsofnuclearpower
+1062.0,6.12,what have you it is very very very,whathaveyouitisveryveryvery
+1065.84,4.0,highly regulated to the point where,highlyregulatedtothepointwhere
+1068.12,5.28,certainly background in healthcare,certainlybackgroundinhealthcare
+1069.84,5.56,Telecom 911 paaps what have you yep uh,telecom911paapswhathaveyouyepuh
+1073.4,3.24,the the joke I like to make is uh you,thethejokeiliketomakeisuhyou
+1075.4,3.12,know Healthcare and Telecom was,knowhealthcareandtelecomwas
+1076.64,4.0,unregulated enough we skipped Aerospace,unregulatedenoughweskippedaerospace
+1078.52,5.32,and when straight to nuclear,andwhenstraighttonuclear
+1080.64,6.36,energy so um you know like nuclear power,energysoumyouknowlikenuclearpower
+1083.84,5.76,thinks in decades and uh Diablo Canya,thinksindecadesanduhdiablocanya
+1087.0,5.6,went online in 1884 40th anniversary,wentonlinein188440thanniversary
+1089.6,5.24,it's as old as I am and over the span of,itsasoldasiamandoverthespanof
+1092.6,4.28,those 40 years by way of policy,those40yearsbywayofpolicy
+1094.84,5.199,procedure documenting absolutely,proceduredocumentingabsolutely
+1096.88,6.2,everything they've massed somewhere in,everythingtheyvemassedsomewherein
+1100.039,6.12,excess of 1 billion pages of records and,excessof1billionpagesofrecordsand
+1103.08,5.32,documentation so step one is you know,documentationsosteponeisyouknow
+1106.159,4.961,enabling semantic search and in inest,enablingsemanticsearchandininest
+1108.4,5.48,Etc of all that different content which,etcofallthatdifferentcontentwhich
+1111.12,5.16,is really the fundamental enabling layer,isreallythefundamentalenablinglayer
+1113.88,4.72,for doing a lot of different training,fordoingalotofdifferenttraining
+1116.28,4.399,approaches and you know clustering,approachesandyouknowclustering
+1118.6,4.079,semantic search those kinds of things um,semanticsearchthosekindsofthingsum
+1120.679,3.401,because another thing that's really,becauseanotherthingthatsreally
+1122.679,4.801,interesting about this industry I,interestingaboutthisindustryi
+1124.08,5.24,thought like healthare was bad um you I,thoughtlikehealtharewasbadumyoui
+1127.48,3.199,you know I read some of this content and,youknowireadsomeofthiscontentand
+1129.32,4.32,I'm you know I don't have a PhD in,imyouknowidonthaveaphdin
+1130.679,6.521,nuclear physics so I get lost within the,nuclearphysicssoigetlostwithinthe
+1133.64,5.64,first sentence and um you know more kind,firstsentenceandumyouknowmorekind
+1137.2,3.76,of you know as we look towards other,ofyouknowaswelooktowardsother
+1139.28,4.72,applications and other ways to deploy,applicationsandotherwaystodeploy
+1140.96,5.0,this uh if you ever get a chance to,thisuhifyouevergetachanceto
+1144.0,4.96,visit a nuclear power plant I highly,visitanuclearpowerplantihighly
+1145.96,5.32,suggest it it's very very interesting,suggestititsveryveryinteresting
+1148.96,3.68,I'll take you up on that well you're in,illtakeyouuponthatwellyourein
+1151.28,3.56,you're in California right just quick,youreincaliforniarightjustquick
+1152.64,4.48,drive oh okay how do how how does pg&,driveohokayhowdohowhowdoespg
+1154.84,4.92,feel about you you have any you pay your,feelaboutyouyouhaveanyyoupayyour
+1157.12,3.84,bills on time you know yeah sure yeah of,billsontimeyouknowyeahsureyeahof
+1159.76,5.44,course I do,courseido
+1160.96,6.16,always so um you know you get there and,alwayssoumyouknowyougetthereand
+1165.2,4.88,uh you know a guy with a rifle follows,uhyouknowaguywithariflefollows
+1167.12,4.559,you around and well yell at you if you,youaroundandwellyellatyouifyou
+1170.08,3.88,don't have three points of contact on,donthavethreepointsofcontacton
+1171.679,3.961,the staircase wow and you know you're,thestaircasewowandyouknowyoure
+1173.96,3.52,wearing your doemer and this is before,wearingyourdoemerandthisisbefore
+1175.64,3.919,you even get into the radiological stuff,youevengetintotheradiologicalstuff
+1177.48,5.439,so there just kind of this like,sotherejustkindofthislike
+1179.559,5.6,obsessive wild intense focus on safety,obsessivewildintensefocusonsafety
+1182.919,5.081,and operation they have NRC inspectors,andoperationtheyhavenrcinspectors
+1185.159,4.921,on site it's a whole thing um and you,onsiteitsawholethingumandyou
+1188.0,4.679,know you start to look into I'm looking,knowyoustarttolookintoimlooking
+1190.08,4.88,at this and I'm thinking oh yeah I'm,atthisandimthinkingohyeahim
+1192.679,5.561,going to be looking at stps and srtp,goingtobelookingatstpsandsrtp
+1194.96,5.599,again at no time because the you know,againatnotimebecausetheyouknow
+1198.24,4.2,like the control of touch and surfaces,likethecontroloftouchandsurfaces
+1200.559,3.761,you know again nucleotides and all the,youknowagainnucleotidesandallthe
+1202.44,3.32,radiological stuff whatever else,radiologicalstuffwhateverelse
+1204.32,2.719,something as simple and I think this,somethingassimpleandithinkthis
+1205.76,3.64,speaks to a lot of the potential,speakstoalotofthepotential
+1207.039,5.441,applications of this as well U you look,applicationsofthisaswelluyoulook
+1209.4,6.159,at an industry like this and um you know,atanindustrylikethisandumyouknow
+1212.48,6.76,things like voice activity detection and,thingslikevoiceactivitydetectionand
+1215.559,5.881,you know transcripts of just you know a,youknowtranscriptsofjustyouknowa
+1219.24,4.559,technician talking out loud while he's,techniciantalkingoutloudwhilehes
+1221.44,4.56,modifying a pump or something um,modifyingapumporsomethingum
+1223.799,3.801,something that those of us in this room,somethingthatthoseofusinthisroom
+1226.0,3.32,would look at look at that and think,wouldlookatlookatthatandthink
+1227.6,4.36,well that's like incredible simple and,wellthatslikeincrediblesimpleand
+1229.32,4.64,Elementary it's the application right,elementaryitstheapplicationright
+1231.96,4.0,finding that that business use case and,findingthatthatbusinessusecaseand
+1233.96,4.64,and how to and how to deploy it,andhowtoandhowtodeployit
+1235.96,4.88,particularly within such a a challenging,particularlywithinsuchaachallenging
+1238.6,4.52,operating environment that's fascinating,operatingenvironmentthatsfascinating
+1240.84,4.8,yeah so that's kind of a little bit of,yeahsothatskindofalittlebitof
+1243.12,4.48,an intro kind of a plug here I get into,anintrokindofaplughereigetinto
+1245.64,4.56,it in a little more detail uh tomorrow I,itinalittlemoredetailuhtomorrowi
+1247.6,3.88,think my my talk is titled AI on the,thinkmymytalkistitledaionthe
+1250.2,2.8,frontier the world's fastest,frontiertheworldsfastest
+1251.48,2.439,supercomputer or something like that cuz,supercomputerorsomethinglikethatcuz
+1253.0,2.72,we have a partnership with the,wehaveapartnershipwiththe
+1253.919,4.041,Department of energy as well excellent,departmentofenergyaswellexcellent
+1255.72,3.48,very cool man and I think that speaks to,verycoolmanandithinkthatspeaksto
+1257.96,4.839,what you were talking about to Jeff that,whatyouweretalkingabouttojeffthat
+1259.2,7.52,the the amount of Economic Opportunity,thetheamountofeconomicopportunity
+1262.799,6.36,available here is just unbelievable unb,availablehereisjustunbelievableunb
+1266.72,4.92,right and that finding those second and,rightandthatfindingthosesecondand
+1269.159,4.201,third tertiary sort of like um,thirdtertiarysortoflikeum
+1271.64,4.399,derivative products that are coming from,derivativeproductsthatarecomingfrom
+1273.36,4.919,the AI technology and applying them to,theaitechnologyandapplyingthemto
+1276.039,4.12,specific industries that do have you,specificindustriesthatdohaveyou
+1278.279,3.161,know highly regulated environments they,knowhighlyregulatedenvironmentsthey
+1280.159,2.76,very strange I know there was a talk at,verystrangeiknowtherewasatalkat
+1281.44,3.119,for those of you who can go back and,forthoseofyouwhocangobackand
+1282.919,3.321,watch the commio world and I know we,watchthecommioworldandiknowwe
+1284.559,4.24,have the the runners here with Danel in,havethetherunnersherewithdanelin
+1286.24,5.84,Atlanta there uh we can go there was a,atlantathereuhwecangotherewasa
+1288.799,5.401,there on um a guy who does using web RTC,thereonumaguywhodoesusingwebrtc
+1292.08,3.959,for speaking with the space station if I,forspeakingwiththespacestationifi
+1294.2,3.88,remember correctly and how they had to,remembercorrectlyandhowtheyhadto
+1296.039,4.201,reorient and re architect the way they,reorientandrearchitectthewaythey
+1298.08,5.24,do across the world but they needed it,doacrosstheworldbuttheyneededit
+1300.24,4.72,to be the same exact interface and types,tobethesameexactinterfaceandtypes
+1303.32,3.32,of systems they would use back in the,ofsystemstheywouldusebackinthe
+1304.96,2.92,60s so it's still to push to talk they,60ssoitsstilltopushtotalkthey
+1306.64,3.159,had to have everybody draw like a closed,hadtohaveeverybodydrawlikeaclosed
+1307.88,3.52,circuit like they had to have Capcom,circuitliketheyhadtohavecapcom
+1309.799,3.161,able to talk to the right had to work,abletotalktotherighthadtowork
+1311.4,4.399,exactly the same but they rearch on web,exactlythesamebuttheyrearchonweb
+1312.96,5.0,RTC really interesting applications of,rtcreallyinterestingapplicationsof
+1315.799,4.601,that technology web RTC to a specific,thattechnologywebrtctoaspecific
+1317.96,4.88,use case and I think now ai applied to,usecaseandithinknowaiappliedto
+1320.4,4.72,things like nuclear power is is,thingslikenuclearpowerisis
+1322.84,4.6,fascinating which which is also reactor,fascinatingwhichwhichisalsoreactor
+1325.12,3.84,designs from the 1960s currently by the,designsfromthe1960scurrentlybythe
+1327.44,3.08,way it's amazing how much stuff we used,wayitsamazinghowmuchstuffweused
+1328.96,2.76,from the' 60s still that was what,fromthe60sstillthatwaswhat
+1330.52,3.519,happened back then things were so you,happenedbackthenthingsweresoyou
+1331.72,4.4,know made good stuff back then works it,knowmadegoodstuffbackthenworksit
+1334.039,3.161,does just keeps working um and Diego,doesjustkeepsworkingumanddiego
+1336.12,4.0,what about what about yourself what do,whataboutwhataboutyourselfwhatdo
+1337.2,5.44,you think about this well uh I agree,youthinkaboutthiswelluhiagree
+1340.12,7.159,that of course AI is a general purpose,thatofcourseaiisageneralpurpose
+1342.64,7.68,concept so we better focus on specific,conceptsowebetterfocusonspecific
+1347.279,6.041,applications Industries so from my point,applicationsindustriessofrommypoint
+1350.32,5.599,of view and well you know I have quite,ofviewandwellyouknowihavequite
+1353.32,5.599,some experience in the customer care TCO,someexperienceinthecustomercaretco
+1355.919,5.841,space and uh what we are working there,spaceanduhwhatweareworkingthere
+1358.919,5.201,is but I I see three main,isbutiiseethreemain
+1361.76,5.279,applications first one is uh,applicationsfirstoneisuh
+1364.12,6.36,conversational AI of course the usage of,conversationalaiofcoursetheusageof
+1367.039,6.441,AI to interact with customers and I see,aitointeractwithcustomersandisee
+1370.48,6.76,that uh from the Omni Channel,thatuhfromtheomnichannel
+1373.48,6.72,perspective uh with that means of course,perspectiveuhwiththatmeansofcourse
+1377.24,5.319,voice interactions realtime interactions,voiceinteractionsrealtimeinteractions
+1380.2,4.92,uh but also a synchronous,uhbutalsoasynchronous
+1382.559,6.681,interactions uh I'm dealing with a lot,interactionsuhimdealingwithalot
+1385.12,7.48,of um email web chat interactions they,ofumemailwebchatinteractionsthey
+1389.24,6.6,are growing and uh there are a lot of,aregrowinganduhtherearealotof
+1392.6,6.959,requests to make that,requeststomakethat
+1395.84,6.8,automatic which also brings to some,automaticwhichalsobringstosome
+1399.559,5.24,ethical uh issues like uh we are not,ethicaluhissueslikeuhwearenot
+1402.64,4.639,more able to understand if the email is,moreabletounderstandiftheemailis
+1404.799,4.24,written by a human or machine but that's,writtenbyahumanormachinebutthats
+1407.279,4.561,another picture,anotherpicture
+1409.039,5.361,uh so conversational AI the first,uhsoconversationalaithefirst
+1411.84,6.839,application the second application is,applicationthesecondapplicationis
+1414.4,6.639,about conversation analysis okay so a,aboutconversationanalysisokaysoa
+1418.679,4.681,little bit related to what was,littlebitrelatedtowhatwas
+1421.039,4.841,mentioning Jeff as well but in the,mentioningjeffaswellbutinthe
+1423.36,5.72,customer care of course we can analyze,customercareofcoursewecananalyze
+1425.88,6.08,the conversation we can use AI to get,theconversationwecanuseaitoget
+1429.08,4.28,insights about that to get what we call,insightsaboutthattogetwhatwecall
+1431.96,4.319,quality,quality
+1433.36,6.08,assurance and so get insight about you,assuranceandsogetinsightaboutyou
+1436.279,6.241,know the sentiment or,knowthesentimentor
+1439.44,5.839,get knowledge about specific patterns,getknowledgeaboutspecificpatterns
+1442.52,5.36,inside a conversation to perform,insideaconversationtoperform
+1445.279,4.681,marketing operations or also something,marketingoperationsoralsosomething
+1447.88,4.76,for good for example an application I,forgoodforexampleanapplicationi
+1449.96,6.64,want to mention we've been working,wanttomentionwevebeenworking
+1452.64,5.6,on as a concept uh is a framework to,onasaconceptuhisaframeworkto
+1456.6,4.64,detect the risk level inside a,detecttherisklevelinsidea
+1458.24,5.679,conversation between psychologists and,conversationbetweenpsychologistsand
+1461.24,6.48,young people with the mental,youngpeoplewiththemental
+1463.919,6.48,issues which unfortunately is increasing,issueswhichunfortunatelyisincreasing
+1467.72,5.24,and so the concept is to identify the,andsotheconceptistoidentifythe
+1470.399,4.321,risk level inside this conversation so,risklevelinsidethisconversationso
+1472.96,5.599,you know we are talking here about young,youknowwearetalkinghereaboutyoung
+1474.72,8.36,people with depressions or,peoplewithdepressionsor
+1478.559,7.321,even suicide tentatives and then that,evensuicidetentativesandthenthat
+1483.08,5.0,could could be a very nice,couldcouldbeaverynice
+1485.88,3.72,application uh and then in the customer,applicationuhandtheninthecustomer
+1488.08,3.839,care space there is the third,carespacethereisthethird
+1489.6,7.559,application that we've been working on,applicationthatwevebeenworkingon
+1491.919,9.401,and um it's the agent assistant okay so,andumitstheagentassistantokayso
+1497.159,7.721,human agent the Center operators can use,humanagentthecenteroperatorscanuse
+1501.32,6.16,AI to provide better experience for the,aitoprovidebetterexperienceforthe
+1504.88,5.399,customers at the end of the day okay so,customersattheendofthedayokayso
+1507.48,5.52,uh before they needed to escalate the,uhbeforetheyneededtoescalatethe
+1510.279,5.961,issues contact get in touch with the,issuescontactgetintouchwiththe
+1513.0,6.76,supervisors to get help now they can,supervisorstogethelpnowtheycan
+1516.24,4.76,interact also with some AI agents to get,interactalsowithsomeaiagentstoget
+1519.76,4.799,the answers they,theanswersthey
+1521.0,6.64,need uh so those are three,needuhsothosearethree
+1524.559,6.24,applications and uh but well maybe this,applicationsanduhbutwellmaybethis
+1527.64,4.519,is a second on the F but I'd like to,isasecondonthefbutidliketo
+1530.799,5.321,point out,pointout
+1532.159,6.201,that it's really important I I I think,thatitsreallyimportantiiithink
+1536.12,5.24,organizations are,organizationsare
+1538.36,6.24,underestimating the power of that on one,underestimatingthepowerofthatonone
+1541.36,8.6,side on the other side also how,sideontheothersidealsohow
+1544.6,8.4,to the bug how to provide such service,tothebughowtoprovidesuchservice
+1549.96,6.28,so for example I want to know why these,soforexampleiwanttoknowwhythese
+1553.0,7.2,llm or these AI agents answered like,llmortheseaiagentsansweredlike
+1556.24,7.2,that and not like that was the answers,thatandnotlikethatwastheanswers
+1560.2,6.24,properly provided or not this is not,properlyprovidedornotthisisnot
+1563.44,7.479,obvious imagine when your a customer ask,obviousimaginewhenyouracustomerask
+1566.44,7.64,you why this agent answered like that so,youwhythisagentansweredlikethatso
+1570.919,6.201,if he or she is a human you can find out,ifheorsheisahumanyoucanfindout
+1574.08,7.199,if it was a complex llm behind you need,ifitwasacomplexllmbehindyouneed
+1577.12,6.88,to explain and to to get the reason,toexplainandtotogetthereason
+1581.279,5.721,behind that and there are of course,behindthatandthereareofcourse
+1584.0,6.12,tools to do that now but you need to be,toolstodothatnowbutyouneedtobe
+1587.0,4.6,able to use that uh properly yeah yep,abletousethatuhproperlyyeahyep
+1590.12,4.12,and I think that's also it speaks to the,andithinkthatsalsoitspeakstothe
+1591.6,5.28,idea that you know if the AI agent or if,ideathatyouknowiftheaiagentorif
+1594.24,4.36,any AI system needs to be like always,anyaisystemneedstobelikealways
+1596.88,2.96,100% correct right highly regulated,100correctrighthighlyregulated
+1598.6,3.16,environments or highly sensitive,environmentsorhighlysensitive
+1599.84,3.52,environments where it needs to be 100%,environmentswhereitneedstobe100
+1601.76,4.519,correct that's a certain level of,correctthatsacertainlevelof
+1603.36,3.919,guarantee and systems you can use versus,guaranteeandsystemsyoucanuseversus
+1606.279,2.64,ones that can be a little bit more,onesthatcanbealittlebitmore
+1607.279,3.561,imaginative ones that can be it doesn't,imaginativeonesthatcanbeitdoesnt
+1608.919,4.081,you know exactness is not entirely,youknowexactnessisnotentirely
+1610.84,3.559,correct um and I think also it's a very,correctumandithinkalsoitsavery
+1613.0,2.919,interesting point that everything we're,interestingpointthateverythingwere
+1614.399,4.121,talking talking about as well is the,talkingtalkingaboutaswellisthe
+1615.919,4.0,idea that voice has been historic Al,ideathatvoicehasbeenhistorical
+1618.52,2.96,something that's kind of locked away,somethingthatskindoflockedaway
+1619.919,3.961,right you have a wave file save,rightyouhaveawavefilesave
+1621.48,4.799,somewhere maybe you have text to speech,somewheremaybeyouhavetexttospeech
+1623.88,4.159,speech to text on it uh but that's R,speechtotextonituhbutthatsr
+1626.279,3.841,very rarely done was kind of expensive,veryrarelydonewaskindofexpensive
+1628.039,3.681,and then mining that data was expensive,andthenminingthatdatawasexpensive
+1630.12,2.679,and required a lot of separate tooling,andrequiredalotofseparatetooling
+1631.72,2.88,and a lot of separate Knowledge from,andalotofseparateknowledgefrom
+1632.799,4.36,separate people and now that's all,separatepeopleandnowthatsall
+1634.6,4.72,possible in one package right and I,possibleinonepackagerightandi
+1637.159,4.4,think Von speak to that and and and it's,thinkvonspeaktothatandandandits
+1639.32,4.28,really interoperability right for the,reallyinteroperabilityrightforthe
+1641.559,4.441,very first time across all these,veryfirsttimeacrossallthese
+1643.6,4.799,ecosystems there's a standard being,ecosystemstheresastandardbeing
+1646.0,5.36,presented which will offer the ability,presentedwhichwilloffertheability
+1648.399,4.321,to have that seamless integration and so,tohavethatseamlessintegrationandso
+1651.36,3.799,yes you could bring back those,yesyoucouldbringbackthose
+1652.72,3.959,conversations from the past whether or,conversationsfromthepastwhetheror
+1655.159,3.76,not people opted in with permission to,notpeopleoptedinwithpermissionto
+1656.679,3.88,do that different conversation but but,dothatdifferentconversationbutbut
+1658.919,4.24,certainly from a perspective of,certainlyfromaperspectiveof
+1660.559,4.801,knowledge transfer and then if you look,knowledgetransferandthenifyoulook
+1663.159,4.12,at the more creative side of it I mean,atthemorecreativesideofitimean
+1665.36,4.12,you know so the vcon really come into,youknowsothevconreallycomeinto
+1667.279,4.201,action on the you know on the uh on the,actionontheyouknowontheuhonthe
+1669.48,3.76,asynchronous side but they are being,asynchronoussidebuttheyarebeing
+1671.48,4.24,recorded synchronously but you have,recordedsynchronouslybutyouhave
+1673.24,4.64,value on both sides of the conversation,valueonbothsidesoftheconversation
+1675.72,4.04,but if you look at more of a personal,butifyoulookatmoreofapersonal
+1677.88,4.799,Rel relationship imagine everyone in,relrelationshipimagineeveryonein
+1679.76,5.519,this room opted in that their great,thisroomoptedinthattheirgreat
+1682.679,5.161,great great grandchildren could have,greatgreatgrandchildrencouldhave
+1685.279,5.601,bedtime stories read to them their voice,bedtimestoriesreadtothemtheirvoice
+1687.84,5.6,right so I imagine through a skit vcon,rightsoiimaginethroughaskitvcon
+1690.88,5.6,architecture we can be the,architecturewecanbethe
+1693.44,5.479,authenticated person who gave permission,authenticatedpersonwhogavepermission
+1696.48,5.0,to Future generations to have our voice,tofuturegenerationstohaveourvoice
+1698.919,4.681,cloned and for bedtime stories to be,clonedandforbedtimestoriestobe
+1701.48,4.96,given in our voice to the Future,giveninourvoicetothefuture
+1703.6,4.919,generations and why that matters is that,generationsandwhythatmattersisthat
+1706.44,4.359,you know we are living in a time where I,youknowwearelivinginatimewherei
+1708.519,3.88,don't know call it 100 years ago there,dontknowcallit100yearsagothere
+1710.799,3.441,was some point in the past where the,wassomepointinthepastwherethe
+1712.399,4.76,only people that were ever remembered,onlypeoplethatwereeverremembered
+1714.24,6.039,were people that were inFAMOUS or famous,werepeoplethatwereinfamousorfamous
+1717.159,5.721,everyone else came about and left and,everyoneelsecameaboutandleftand
+1720.279,4.24,perhaps remembered by their families but,perhapsrememberedbytheirfamiliesbut
+1722.88,4.159,ever since we had the ability to start,eversincewehadtheabilitytostart
+1724.519,4.76,leaving and dropping digital breadcrumbs,leavinganddroppingdigitalbreadcrumbs
+1727.039,4.961,whether it was from videos and posts and,whetheritwasfromvideosandpostsand
+1729.279,4.24,and tweets and status updates we're now,andtweetsandstatusupdateswerenow
+1732.0,3.72,living in a time where while you're,livinginatimewherewhileyoure
+1733.519,4.681,alive you can curate the digital,aliveyoucancuratethedigital
+1735.72,4.92,breadcrumbs and for the very first time,breadcrumbsandfortheveryfirsttime
+1738.2,4.88,we can now authenticate we can give the,wecannowauthenticatewecangivethe
+1740.64,5.08,permission for a voice to be used for,permissionforavoicetobeusedfor
+1743.08,5.16,specific purposes and that it all comes,specificpurposesandthatitallcomes
+1745.72,5.959,from having the ability to trust having,fromhavingtheabilitytotrusthaving
+1748.24,5.559,the ability to discern and then having,theabilitytodiscernandthenhaving
+1751.679,5.48,an authoritative source that allows us,anauthoritativesourcethatallowsus
+1753.799,5.76,to happen at least by the by our future,tohappenatleastbythebyourfuture
+1757.159,4.52,you know Prodigy to to to hear stuff and,youknowprodigytototohearstuffand
+1759.559,3.681,I think that that's important and the,ithinkthatthatsimportantandthe
+1761.679,4.801,other thing that's also important is,otherthingthatsalsoimportantis
+1763.24,5.4,that it is going to be those derivatives,thatitisgoingtobethosederivatives
+1766.48,4.079,of what we're talking about today that,ofwhatweretalkingabouttodaythat
+1768.64,5.039,drives the Innovation for tomorrow I,drivestheinnovationfortomorrowi
+1770.559,5.24,mean we may not have the killer app but,meanwemaynothavethekillerappbut
+1773.679,5.321,yes compliance with government law is,yescompliancewithgovernmentlawis
+1775.799,5.281,important being able to work and stop,importantbeingabletoworkandstop
+1779.0,3.679,robocalling or at least the trouble,robocallingoratleastthetrouble
+1781.08,3.479,really is that some of the rules the FCC,reallyisthatsomeoftherulesthefcc
+1782.679,4.641,has currently in the current uh,hascurrentlyinthecurrentuh
+1784.559,5.281,political cycle is yeah it's it's it's,politicalcycleisyeahitsitsits
+1787.32,5.0,against the law to use AI to impersonate,againstthelawtouseaitoimpersonate
+1789.84,4.04,the president to generate robocalls well,thepresidenttogeneraterobocallswell
+1792.32,2.959,rooc calling is illegal and we having,rooccallingisillegalandwehaving
+1793.88,2.96,trouble with that right and if you're,troublewiththatrightandifyoure
+1795.279,3.24,not going to be stopped for that then,notgoingtobestoppedforthatthen
+1796.84,4.0,the chances are stopping them from,thechancesarestoppingthemfrom
+1798.519,4.52,impersonating somebody also pretty sad,impersonatingsomebodyalsoprettysad
+1800.84,5.319,but but on the Practical side of it we,butbutonthepracticalsideofitwe
+1803.039,5.921,are starting to see innovative ideas and,arestartingtoseeinnovativeideasand
+1806.159,5.161,and sometimes it's those edge cases that,andsometimesitsthoseedgecasesthat
+1808.96,5.68,drive the future and if you look at how,drivethefutureandifyoulookathow
+1811.32,6.079,the technology evolves we're at the very,thetechnologyevolveswereatthevery
+1814.64,5.32,very beginning part of seriously the,verybeginningpartofseriouslythe
+1817.399,4.64,next revolution of communications and,nextrevolutionofcommunicationsand
+1819.96,4.76,and I I have said that voice will always,andiihavesaidthatvoicewillalways
+1822.039,4.24,be the killer app with no disrespect to,bethekillerappwithnodisrespectto
+1824.72,3.319,any other Innovation that you see in,anyotherinnovationthatyouseein
+1826.279,4.361,front of you but there's something,frontofyoubuttheressomething
+1828.039,5.64,fundamentally textured and with so much,fundamentallytexturedandwithsomuch
+1830.64,5.36,metadata associated with how we speak,metadataassociatedwithhowwespeak
+1833.679,4.081,and to whom and frankly if you're in a,andtowhomandfranklyifyoureina
+1836.0,4.08,crisis situation being able to reach out,crisissituationbeingabletoreachout
+1837.76,4.32,to a loved one and say I love you and,toalovedoneandsayiloveyouand
+1840.08,4.56,being able to provide that confirmation,beingabletoprovidethatconfirmation
+1842.08,5.8,that you're okay or they're okay has,thatyoureokayortheyreokayhas
+1844.64,5.0,such a high beta that I I think that as,suchahighbetathatiithinkthatas
+1847.88,3.84,long as we have people on this planet,longaswehavepeopleonthisplanet
+1849.64,5.44,and we're not Androids that the,andwerenotandroidsthatthe
+1851.72,6.319,emotional value goes way up and so AI,emotionalvaluegoeswayupandsoai
+1855.08,5.959,has opportunity to be a connector and,hasopportunitytobeaconnectorand
+1858.039,5.401,for James sake yes I do believe that,forjamessakeyesidobelievethat
+1861.039,4.441,that the AI can help you as as Dale,thattheaicanhelpyouasasdale
+1863.44,3.76,Carnegie would say find the hidden,carnegiewouldsayfindthehidden
+1865.48,4.24,objections to why the person said no to,objectionstowhythepersonsaidnoto
+1867.2,5.56,the sale and help iterate perhaps with,thesaleandhelpiterateperhapswith
+1869.72,5.199,human guidance on how to get to a yes I,humanguidanceonhowtogettoayesi
+1872.76,3.759,I do believe we will see that happening,idobelievewewillseethathappening
+1874.919,3.6,today because imagine if you can ingest,todaybecauseimagineifyoucaningest
+1876.519,5.12,the best sales books ever written in the,thebestsalesbookseverwritteninthe
+1878.519,4.921,world and we have the Evan agent now uh,worldandwehavetheevanagentnowuh
+1881.639,4.201,with James voice reaching out and,withjamesvoicereachingoutand
+1883.44,3.88,calling people it will figure out how to,callingpeopleitwillfigureouthowto
+1885.84,3.079,get the person to say yes now whether,getthepersontosayyesnowwhether
+1887.32,4.28,they buy or not that's something else,theybuyornotthatssomethingelse
+1888.919,4.72,but that also is very particular to what,butthatalsoisveryparticulartowhat
+1891.6,3.6,it's being sold and so it's I don't,itsbeingsoldandsoitsidont
+1893.639,3.76,think it's a generic solution but a,thinkitsagenericsolutionbuta
+1895.2,4.079,specific one but I I do think that we,specificonebutiidothinkthatwe
+1897.399,3.88,are living in this Brave New Generation,arelivinginthisbravenewgeneration
+1899.279,4.64,and what I've seen since the last uh,andwhativeseensincethelastuh
+1901.279,6.041,cluecon is a few companies in fact one,clueconisafewcompaniesinfactone
+1903.919,6.321,of my friends is using an llm to answer,ofmyfriendsisusinganllmtoanswer
+1907.32,4.92,phone calls no more ivrs MH actually,phonecallsnomoreivrsmhactually
+1910.24,5.439,doing two things answering calls of an,doingtwothingsansweringcallsofan
+1912.24,7.76,llm and then depending upon the person,llmandthendependingupontheperson
+1915.679,6.561,who's calling having the voice dialect,whoscallinghavingthevoicedialect
+1920.0,4.32,chosen so that if it's a certain version,chosensothatifitsacertainversion
+1922.24,3.6,of Spanish they're from Guatemala they,ofspanishtheyrefromguatemalathey
+1924.32,3.0,get the Guatemala version or they get,gettheguatemalaversionortheyget
+1925.84,3.52,the Mexican version no no no they get,themexicanversionnononotheyget
+1927.32,5.0,the Puerto Rican version where we're now,thepuertoricanversionwherewerenow
+1929.36,4.64,solving the Tower of Babel issue um and,solvingthetowerofbabelissueumand
+1932.32,3.44,we're doing that through AR that's not,weredoingthatthrougharthatsnot
+1934.0,4.32,the vcon side that's just other,thevconsidethatsjustother
+1935.76,5.759,applications so I I do believe that you,applicationssoiidobelievethatyou
+1938.32,5.0,will see tremendous growth and this will,willseetremendousgrowthandthiswill
+1941.519,3.961,transcend into many different business,transcendintomanydifferentbusiness
+1943.32,4.079,sectors and I think that multimodal,sectorsandithinkthatmultimodal
+1945.48,3.559,aspect of it right where you can do,aspectofitrightwhereyoucando
+1947.399,3.361,things like accent transfer so if I'm,thingslikeaccenttransfersoifim
+1949.039,3.321,from rural Kentucky you can have a,fromruralkentuckyyoucanhavea
+1950.76,3.759,default voice that has a rural Kentucky,defaultvoicethathasaruralkentucky
+1952.36,4.159,accent placed on it it actually makes it,accentplacedonititactuallymakesit
+1954.519,3.681,does it does affect people's perception,doesitdoesaffectpeoplesperception
+1956.519,3.201,of the calling like you know whether,ofthecallinglikeyouknowwhether
+1958.2,2.719,they'll buy or whether they are calling,theyllbuyorwhethertheyarecalling
+1959.72,2.88,they just the government because their,theyjustthegovernmentbecausetheir
+1960.919,3.64,powers whatever the reason is right,powerswhateverthereasonisright
+1962.6,3.64,having it tailored to the person is,havingittailoredtothepersonis
+1964.559,2.96,certainly I think a direction a lot of,certainlyithinkadirectionalotof
+1966.24,3.799,this is going and I know people out here,thisisgoingandiknowpeopleouthere
+1967.519,4.601,who are building just one one also,whoarebuildingjustoneonealso
+1970.039,4.12,digital rights dig rights so if you're,digitalrightsdigrightssoifyoure
+1972.12,4.48,thinking about people abusing copyrights,thinkingaboutpeopleabusingcopyrights
+1974.159,4.36,and stuff like that look to the Vons and,andstufflikethatlooktothevonsand
+1976.6,4.76,things like vcon for enforcement,thingslikevconforenforcement
+1978.519,6.12,purposes cuz we finally have a standard,purposescuzwefinallyhaveastandard
+1981.36,6.039,to push up against to fight for that mhm,topushupagainsttofightforthatmhm
+1984.639,2.76,cool very,coolvery
+1989.0,5.799,cool,cool
+1990.88,7.0,um voice okay until probably a few weeks,umvoiceokayuntilprobablyafewweeks
+1994.799,5.84,ago I was sort of on a down voice and I,agoiwassortofonadownvoiceandi
+1997.88,5.56,was kind of going really why is Jeff so,waskindofgoingreallywhyisjeffso
+2000.639,6.441,obsessed with bloody voice no one uses,obsessedwithbloodyvoicenooneuses
+2003.44,6.199,it anymore right I use text which is a,itanymorerightiusetextwhichisa
+2007.08,5.719,shortened version of language which is,shortenedversionoflanguagewhichis
+2009.639,5.4,unintelligable in general and I to type,unintelligableingeneralanditotype
+2012.799,3.72,search into Google search which is a,searchintogooglesearchwhichisa
+2015.039,5.441,different language it it doesn't have,differentlanguageititdoesnthave
+2016.519,7.241,any verbs in it no no and then over the,anyverbsinitnonoandthenoverthe
+2020.48,5.6,last couple of months um probably six,lastcoupleofmonthsumprobablysix
+2023.76,4.48,months I've I've changed I now do all my,monthsiveivechangedinowdoallmy
+2026.08,5.319,search and all my scientific research in,searchandallmyscientificresearchin
+2028.24,6.0,chat gbt and Claude and they require you,chatgbtandclaudeandtheyrequireyou
+2031.399,5.801,to talk to them in natural language and,totalktotheminnaturallanguageand
+2034.24,5.36,this morning I spent all this morning uh,thismorningispentallthismorninguh
+2037.2,3.92,talking to open Ai and having it turning,talkingtoopenaiandhavingitturning
+2039.6,4.12,into language so I didn't have to type,intolanguagesoididnthavetotype
+2041.12,5.32,out lots of words cuz it's faster and,outlotsofwordscuzitsfasterand
+2043.72,5.48,it's way way faster at getting you an,itswaywayfasteratgettingyouan
+2046.44,5.0,answer to anything complex in science,answertoanythingcomplexinscience
+2049.2,5.84,than Google search so I my killer,thangooglesearchsoimykiller
+2051.44,6.04,application is search I'm 100% moved and,applicationissearchim100movedand
+2055.04,5.48,I think Tony yeah I know just one one,ithinktonyyeahiknowjustoneone
+2057.48,4.76,point is that Google Google search,pointisthatgooglegooglesearch
+2060.52,3.92,required you and everyone else to speak,requiredyouandeveryoneelsetospeak
+2062.24,4.48,the language of Google search you know,thelanguageofgooglesearchyouknow
+2064.44,5.32,the how many people here are using,thehowmanypeoplehereareusing
+2066.72,4.6,perplexity write down perplexity doai I,perplexitywritedownperplexitydoaii
+2069.76,4.56,don't represent them I'm not not an,dontrepresentthemimnotnotan
+2071.32,5.48,investor but it's allows you to ask a,investorbutitsallowsyoutoaska
+2074.32,4.839,question in your native language not in,questioninyournativelanguagenotin
+2076.8,5.319,the way that Google optimizes to answer,thewaythatgoogleoptimizestoanswer
+2079.159,5.52,questions and that's the AHA is that we,questionsandthatstheahaisthatwe
+2082.119,4.56,finally go back to be be able to be,finallygobacktobebeabletobe
+2084.679,3.641,conversational and that's truly the,conversationalandthatstrulythe
+2086.679,3.761,Breakthrough that we're talking about,breakthroughthatweretalkingabout
+2088.32,3.64,and perplexity figure that out and,andperplexityfigurethatoutand
+2090.44,3.52,that's why Google's having so many other,thatswhygoogleshavingsomanyother
+2091.96,4.639,issues but it's because we don't have to,issuesbutitsbecausewedonthaveto
+2093.96,4.119,speak in the language of the developer,speakinthelanguageofthedeveloper
+2096.599,2.601,who created the search engine I think,whocreatedthesearchengineithink
+2098.079,2.681,that's you know the idea that we are,thatsyouknowtheideathatweare
+2099.2,3.56,people talking to machines the machines,peopletalkingtomachinesthemachines
+2100.76,3.96,we can talk about gu I know one of your,wecantalkaboutguiknowoneofyour
+2102.76,4.24,best examples Tony is looking up FFM Peg,bestexamplestonyislookingupffmpeg
+2104.72,3.76,commands right you can ask it rather,commandsrightyoucanaskitrather
+2107.0,4.119,than having to dig through and you know,thanhavingtodigthroughandyouknow
+2108.48,4.119,they impossible mhm and just like you,theyimpossiblemhmandjustlikeyou
+2111.119,3.561,can just oh what is this here's the flag,canjustohwhatisthisherestheflag
+2112.599,4.561,and here's what it works and saves 100,andhereswhatitworksandsaves100
+2114.68,5.84,hours of messing around I I just wanted,hoursofmessingaroundiijustwanted
+2117.16,5.08,to add oh again I'm sorry uh in terms of,toaddohagainimsorryuhintermsof
+2120.52,4.8,specialized language it's amazing how,specializedlanguageitsamazinghow
+2122.24,5.64,quickly Google Foo snuck up on us this,quicklygooglefoosnuckuponusthis
+2125.32,4.84,all of a sudden everyone everyone speak,allofasuddeneveryoneeveryonespeak
+2127.88,4.719,Google and yeah perplexity in J gbt is,googleandyeahperplexityinjgbtis
+2130.16,5.56,definitely changing that amongst others,definitelychangingthatamongstothers
+2132.599,6.121,MH I'd like to add in in this point,mhidliketoaddininthispoint
+2135.72,5.52,about the search engine changing and I'm,aboutthesearchenginechangingandim
+2138.72,5.2,also using a lot of course the llm to do,alsousingalotofcoursethellmtodo
+2141.24,6.359,searching but it also opens New,searchingbutitalsoopensnew
+2143.92,6.48,Opportunities not just for changing your,opportunitiesnotjustforchangingyour
+2147.599,6.801,browser or search engines it opens new,browserorsearchenginesitopensnew
+2150.4,7.919,opportunity to build new AI assistant,opportunitytobuildnewaiassistant
+2154.4,6.8,to uh query actually very complex,touhqueryactuallyverycomplex
+2158.319,6.321,guides I don't know it could be maybe,guidesidontknowitcouldbemaybe
+2161.2,5.919,the complex manual of a nuclear plant or,thecomplexmanualofanuclearplantor
+2164.64,5.64,a mega yacht or something very complex,amegayachtorsomethingverycomplex
+2167.119,7.48,and now I can use natural language to,andnowicanusenaturallanguageto
+2170.28,7.24,get in into that MH uh with drag what,getinintothatmhuhwithdragwhat
+2174.599,5.881,Luca was mentioning nowadays so this is,lucawasmentioningnowadayssothisis
+2177.52,5.92,also a new kind of applications that I,alsoanewkindofapplicationsthati
+2180.48,5.48,see not just moving from the search,seenotjustmovingfromthesearch
+2183.44,3.96,engine very business oriented I think,engineverybusinessorientedithink
+2185.96,2.96,you're you're pointing out like the idea,youreyourepointingoutliketheidea
+2187.4,3.4,that having access to all those,thathavingaccesstoallthose
+2188.92,3.64,documents in sort of a rag style format,documentsinsortofaragstyleformat
+2190.8,5.039,even on your computer and if you,evenonyourcomputerandifyou
+2192.56,5.12,remember uh in the in the mid one of the,rememberuhintheinthemidoneofthe
+2195.839,3.28,revisions of Microsoft Windows in the,revisionsofmicrosoftwindowsinthe
+2197.68,3.56,mid 2000s they were trying to get rid of,mid2000stheyweretryingtogetridof
+2199.119,3.681,the start bar and they wanted to replace,thestartbarandtheywantedtoreplace
+2201.24,2.92,it with just a search right you search,itwithjustasearchrightyousearch
+2202.8,2.92,and would find the right file for you,andwouldfindtherightfileforyou
+2204.16,3.0,and display it and try to get it and it,anddisplayitandtrytogetitandit
+2205.72,3.52,never took off right it was not didn't,nevertookoffrightitwasnotdidnt
+2207.16,4.0,really work however that is basically,reallyworkhoweverthatisbasically
+2209.24,3.24,how I use my laptop now I have things,howiusemylaptopnowihavethings
+2211.16,3.199,saved I don't know where any of them,savedidontknowwhereanyofthem
+2212.48,3.76,live in which folder I just go to,liveinwhichfolderijustgoto
+2214.359,3.561,Spotlight I search for it and the other,spotlightisearchforitandtheother
+2216.24,3.0,day classically I was trying to find I,dayclassicallyiwastryingtofindi
+2217.92,3.24,think a passport number for one of my,thinkapassportnumberforoneofmy
+2219.24,3.28,kids typed in passport and literally it,kidstypedinpassportandliterallyit
+2221.16,3.48,l through my photos found the word,lthroughmyphotosfoundtheword
+2222.52,4.36,passport in the photo I was like of,passportinthephotoiwaslikeof
+2224.64,5.08,Harrison my son pulled up this thing and,harrisonmysonpulledupthisthingand
+2226.88,4.8,it was just there and that ability to,itwasjustthereandthatabilityto
+2229.72,3.84,find things like that deep inside the,findthingslikethatdeepinsidethe
+2231.68,3.88,computer but also across you know in a,computerbutalsoacrossyouknowina
+2233.56,4.6,vcon format across conversations across,vconformatacrossconversationsacross
+2235.56,4.759,Industries modalities is a really really,industriesmodalitiesisareallyreally
+2238.16,5.32,powerful mechanism that is changing the,powerfulmechanismthatischangingthe
+2240.319,5.161,way people interact with these Services,waypeopleinteractwiththeseservices
+2243.48,5.24,personal uh it's becoming your personal,personaluhitsbecomingyourpersonal
+2245.48,5.68,assistant if you think about and it,assistantifyouthinkaboutandit
+2248.72,4.119,augment your intelligence as well and it,augmentyourintelligenceaswellandit
+2251.16,3.24,would be cool to have it in you know in,wouldbecooltohaveitinyouknowin
+2252.839,4.161,the conversations are things we use that,theconversationsarethingsweusethat
+2254.4,4.24,are outside of the like personal,areoutsideofthelikepersonal
+2257.0,2.96,computer through store or you know,computerthroughstoreoryouknow
+2258.64,2.84,whether you have it at a workplace like,whetheryouhaveitataworkplacelike
+2259.96,3.399,if they can look back through regulatory,iftheycanlookbackthroughregulatory
+2261.48,3.48,filings or something happened pull the,filingsorsomethinghappenedpullthe
+2263.359,3.48,the patterns out of that or some sort of,thepatternsoutofthatorsomesortof
+2264.96,3.92,interesting information there's so much,interestinginformationtheressomuch
+2266.839,3.921,more processing that can be done I mean,moreprocessingthatcanbedoneimean
+2268.88,3.959,you look at just that example there I,youlookatjustthatexampletherei
+2270.76,3.559,mean someone was abusing you right,meansomeonewasabusingyouright
+2272.839,2.681,they're asking you to get a passport,theyreaskingyoutogetapassport
+2274.319,3.8,number because they need to be filled in,numberbecausetheyneedtobefilledin
+2275.52,4.64,a form for some bizarre right why can't,aformforsomebizarrerightwhycant
+2278.119,3.881,they just ask your AI assistant to do it,theyjustaskyouraiassistanttodoit
+2280.16,5.04,for them why do they have to waste your,forthemwhydotheyhavetowasteyour
+2282.0,5.24,time on that job right and it happens,timeonthatjobrightandithappens
+2285.2,4.72,all the time I doing some medical stuff,allthetimeidoingsomemedicalstuff
+2287.24,4.2,with my daughter you have to give them,withmydaughteryouhavetogivethem
+2289.92,5.6,every piece of information every time,everypieceofinformationeverytime
+2291.44,5.76,you see them 20 boxes of text thousand,youseethem20boxesoftextthousand
+2295.52,5.96,times I don't know how many times not,timesidontknowhowmanytimesnot
+2297.2,6.44,thousand but 20 just it's you know so AI,thousandbut20justitsyouknowsoai
+2301.48,3.16,assistants are going to uh be able to do,assistantsaregoingtouhbeabletodo
+2303.64,3.0,this and you're going to have to trust,thisandyouregoingtohavetotrust
+2304.64,3.76,them a lot you're going to give them all,themalotyouregoingtogivethemall
+2306.64,3.8,your private information,yourprivateinformation
+2308.4,5.08,and they can go run a muck with,andtheycangorunamuckwith
+2310.44,4.48,it I would just jump in and mention I I,itiwouldjustjumpinandmentionii
+2313.48,3.52,said this at an event I did eight years,saidthisataneventidideightyears
+2314.92,4.36,ago it hasn't happen then but I do,agoithasnthappenthenbutido
+2317.0,4.16,believe that you'll see two things that,believethatyoullseetwothingsthat
+2319.28,3.36,browsers go away if you think about the,browsersgoawayifyouthinkaboutthe
+2321.16,3.76,most inefficient way to do business is,mostinefficientwaytodobusinessis
+2322.64,5.32,through a browser let face it right and,throughabrowserletfaceitrightand
+2324.92,5.0,that you I I I was pontificating at this,thatyouiiiwaspontificatingatthis
+2327.96,3.359,idea that if we have machine to- machine,ideathatifwehavemachinetomachine
+2329.92,3.28,communication most effective most,communicationmosteffectivemost
+2331.319,3.28,efficient you know back then I was,efficientyouknowbacktheniwas
+2333.2,3.399,advocating that you know if you're,advocatingthatyouknowifyoure
+2334.599,3.401,looking for search you know put the,lookingforsearchyouknowputthe
+2336.599,3.201,search out there so that the machines,searchouttheresothatthemachines
+2338.0,4.119,can find you people want something,canfindyoupeoplewantsomething
+2339.8,3.64,different M and that what you may find,differentmandthatwhatyoumayfind
+2342.119,3.761,actually is another way for people to,actuallyisanotherwayforpeopleto
+2343.44,4.44,communicate to do business uh I'm not,communicatetodobusinessuhimnot
+2345.88,5.12,advocating that we go back to the 1990s,advocatingthatwegobacktothe1990s
+2347.88,5.12,version of websites with their brochures,versionofwebsiteswiththeirbrochures
+2351.0,3.88,however we should look to another way to,howeverweshouldlooktoanotherwayto
+2353.0,3.96,do Commerce just because Google made us,docommercejustbecausegooglemadeus
+2354.88,3.92,do something for so long doesn't make it,dosomethingforsolongdoesntmakeit
+2356.96,3.639,the best way ever right and that if we,thebestwayeverrightandthatifwe
+2358.8,4.08,were to have these AI Bots let's let's,weretohavetheseaibotsletslets
+2360.599,3.76,face it you know maybe you guys have a,faceityouknowmaybeyouguyshavea
+2362.88,2.479,birthday coming up an anniversary,birthdaycomingupananniversary
+2364.359,3.921,something where you're going to get a,somethingwhereyouregoingtogeta
+2365.359,4.72,gift imagine you you can give your AI,giftimagineyouyoucangiveyourai
+2368.28,3.6,$100 and have it buy you the gift that,100andhaveitbuyyouthegiftthat
+2370.079,4.361,you won't buy yourself it knows where to,youwontbuyyourselfitknowswhereto
+2371.88,4.6,look it knows it knows deeply where to,lookitknowsitknowsdeeplywhereto
+2374.44,3.919,look to what websites you go to and what,looktowhatwebsitesyougotoandwhat
+2376.48,3.28,you want and it'll buy you those things,youwantanditllbuyyouthosethings
+2378.359,2.841,that no one else will ever think of,thatnooneelsewilleverthinkof
+2379.76,2.96,getting you because help me buy my,gettingyoubecausehelpmebuymy
+2381.2,3.24,family Christmas gifts that' be useful,familychristmasgiftsthatbeuseful
+2382.72,4.72,no because it actually will go imagine,nobecauseitactuallywillgoimagine
+2384.44,5.159,your family opts in to allow your B your,yourfamilyoptsintoallowyourbyour
+2387.44,4.44,AI to see what they really want you'll,aitoseewhattheyreallywantyoull
+2389.599,4.121,never know but they'll get what they,neverknowbuttheyllgetwhatthey
+2391.88,3.04,want because they they share that with,wantbecausetheytheysharethatwith
+2393.72,3.879,you and that's where I'm going with my,youandthatswhereimgoingwithmy
+2394.92,4.36,mind that that that we have the ability,mindthatthatthatwehavetheability
+2397.599,3.881,finally to be more effective so that,finallytobemoreeffectivesothat
+2399.28,3.559,frankly instead of filling out 22 pages,franklyinsteadoffillingout22pages
+2401.48,3.48,of medical information where it's the,ofmedicalinformationwhereitsthe
+2402.839,4.641,same information repeated page after,sameinformationrepeatedpageafter
+2404.96,4.8,page after page filled out automatically,pageafterpagefilledoutautomatically
+2407.48,3.839,you get to that efficiency the data is,yougettothatefficiencythedatais
+2409.76,4.04,stored in a way that it's machine to,storedinawaythatitsmachineto
+2411.319,3.841,machine understood but people to people,machineunderstoodbutpeopletopeople
+2413.8,3.44,is different and that's where I think,isdifferentandthatswhereithink
+2415.16,4.72,the Vons and these other elements come,thevonsandtheseotherelementscome
+2417.24,5.72,in we get to be human again while at the,inwegettobehumanagainwhileatthe
+2419.88,5.239,same time making it h heavily much more,sametimemakingithheavilymuchmore
+2422.96,3.639,effective and efficient for the other,effectiveandefficientfortheother
+2425.119,3.561,data to be shared with the place of the,datatobesharedwiththeplaceofthe
+2426.599,5.24,data needs we the two can,dataneedswethetwocan
+2428.68,6.04,coexist I love that,coexistilovethat
+2431.839,6.76,future I think intense is still a big,futureithinkintenseisstillabig
+2434.72,6.92,problem because language is lame,problembecauselanguageislame
+2438.599,4.76,basically we all make up different ones,basicallyweallmakeupdifferentones
+2441.64,4.679,and then within the language you have,andthenwithinthelanguageyouhave
+2443.359,5.121,idioms and you have some people don't,idiomsandyouhavesomepeopledont
+2446.319,5.081,learn it as well as others like they've,learnitaswellasothersliketheyve
+2448.48,5.8,solved it with legal and science because,solveditwithlegalandsciencebecause
+2451.4,5.12,they have over longwinded super very,theyhaveoverlongwindedsupervery
+2454.28,4.48,specific wording that most people,specificwordingthatmostpeople
+2456.52,3.799,wouldn't even want to read or be able to,wouldntevenwanttoreadorbeableto
+2458.76,3.72,like generate out of their mouth thank,likegenerateoutoftheirmouththank
+2460.319,4.721,the Germans for that yeah but you have,thegermansforthatyeahbutyouhave
+2462.48,5.16,like then random people just saying,likethenrandompeoplejustsaying
+2465.04,4.64,things you know like you're mad and,thingsyouknowlikeyouremadand
+2467.64,4.439,you're like I'm going insane yeah it's,yourelikeimgoinginsaneyeahits
+2469.68,4.399,like okay we are sending a hospital,likeokaywearesendingahospital
+2472.079,3.76,ambulance to take you to the nut house,ambulancetotakeyoutothenuthouse
+2474.079,3.76,we just assume you told it that or you,wejustassumeyoutolditthatoryou
+2475.839,5.24,tell it to do something and like it,tellittodosomethingandlikeit
+2477.839,5.081,takes the idioms literally or there's 40,takestheidiomsliterallyortheres40
+2481.079,3.481,different ways that those words you,differentwaysthatthosewordsyou
+2482.92,3.56,chose could get interpreted that already,chosecouldgetinterpretedthatalready
+2484.56,3.48,happens with normal conversations you,happenswithnormalconversationsyou
+2486.48,3.08,must have talked to someone in your life,musthavetalkedtosomeoneinyourlife
+2488.04,2.799,and you say something and they didn't,andyousaysomethingandtheydidnt
+2489.56,2.6,understand what you meant and then,understandwhatyoumeantandthen
+2490.839,3.48,you're like oh I get why you thought,yourelikeohigetwhyyouthought
+2492.16,4.24,that now or there like multiple ways to,thatnowortherelikemultiplewaysto
+2494.319,3.52,interpret it and then you overcorrect,interpretitandthenyouovercorrect
+2496.4,2.64,because you try to be more specific,becauseyoutrytobemorespecific
+2497.839,2.881,about what you want to do and then the,aboutwhatyouwanttodoandthenthe
+2499.04,3.88,more you overcorrect the more it only,moreyouovercorrectthemoreitonly
+2500.72,5.16,does that one thing um and you're trying,doesthatonethingumandyouretrying
+2502.92,5.159,to find a balance where it will behave,tofindabalancewhereitwillbehave
+2505.88,4.719,the most optimal based on what you're,themostoptimalbasedonwhatyoure
+2508.079,4.641,saying and allow people that speak in,sayingandallowpeoplethatspeakin
+2510.599,5.161,like three-word sentences to still get,likethreewordsentencestostillget
+2512.72,4.52,what they want um and then people that,whattheywantumandthenpeoplethat
+2515.76,3.12,are more eloquent might get better,aremoreeloquentmightgetbetter
+2517.24,4.8,better things out of it like definitely,betterthingsoutofitlikedefinitely
+2518.88,5.32,can hang out with the chat GPT session,canhangoutwiththechatgptsession
+2522.04,3.76,and convince it to do all kinds of cool,andconvinceittodoallkindsofcool
+2524.2,4.68,stuff if you have the right patience for,stuffifyouhavetherightpatiencefor
+2525.8,5.08,it but it takes sort of you know you,itbutittakessortofyouknowyou
+2528.88,4.479,almost have to team up with it you know,almosthavetoteamupwithityouknow
+2530.88,3.959,you say give me an outline if I was,yousaygivemeanoutlineifiwas
+2533.359,3.081,going to do this and then it does it and,goingtodothisandthenitdoesitand
+2534.839,3.52,then like look at your own outline and,thenlikelookatyourownoutlineand
+2536.44,4.36,expand on it now and then it expands on,expandonitnowandthenitexpandson
+2538.359,5.2,it and then like draft me an example of,itandthenlikedraftmeanexampleof
+2540.8,5.96,this in Python you know it's like blah,thisinpythonyouknowitslikeblah
+2543.559,5.121,spits out with python um then you say,spitsoutwithpythonumthenyousay
+2546.76,3.96,does this code have any bugs in it and,doesthiscodehaveanybugsinitand
+2548.68,4.36,it goes let me look yes my own code I,itgoesletmelookyesmyowncodei
+2550.72,3.92,just wrote 5 seconds ago has 34 bugs in,justwrote5secondsagohas34bugsin
+2553.04,4.4,it I'm like okay could you write that,itimlikeokaycouldyouwritethat
+2554.64,4.439,code again so it has no bugs in it okay,codeagainsoithasnobugsinitokay
+2557.44,3.96,every formatted it there are no more,everyformattedittherearenomore
+2559.079,4.601,bugs does it have a security issue yes,bugsdoesithaveasecurityissueyes
+2561.4,4.56,there are 17 security issues in this,thereare17securityissuesinthis
+2563.68,3.919,code okay could you try again and write,codeokaycouldyoutryagainandwrite
+2565.96,3.44,it so that it doesn't have that but,itsothatitdoesnthavethatbut
+2567.599,4.121,every time it's getting smarter from its,everytimeitsgettingsmarterfromits
+2569.4,5.28,own conversation that you had with it,ownconversationthatyouhadwithit
+2571.72,5.0,but there's if you just ask it write me,buttheresifyoujustaskitwriteme
+2574.68,3.28,this cool python code from the beginning,thiscoolpythoncodefromthebeginning
+2576.72,4.32,you'll never never get anything that,youllnevernevergetanythingthat
+2577.96,4.879,makes any sense so it takes sort of this,makesanysensesoittakessortofthis
+2581.04,5.319,figuring out how,figuringouthow
+2582.839,6.161,to coach it in real time that's where I,tocoachitinrealtimethatswherei
+2586.359,5.641,feel that real computers are a perfect,feelthatrealcomputersareaperfect
+2589.0,6.0,companion to it that can sanity,companiontoitthatcansanity
+2592.0,5.48,check its behaviors and and you try and,checkitsbehaviorsandandyoutryand
+2595.0,4.48,limit The Prompt everyone wants to write,limittheprompteveryonewantstowrite
+2597.48,4.119,400 page prompts to tell it every,400pagepromptstotellitevery
+2599.48,3.839,possible thing it ever needs to know um,possiblethingiteverneedstoknowum
+2601.599,4.72,but they it's better to give it less,buttheyitsbettertogiveitless
+2603.319,5.681,prompt um but just constraints instead,promptumbutjustconstraintsinstead
+2606.319,4.721,like you can just say just narrow the,likeyoucanjustsayjustnarrowthe
+2609.0,5.44,focus of it really good you don't know,focusofitreallygoodyoudontknow
+2611.04,4.4,anything about cheep suddenly it doesn't,anythingaboutcheepsuddenlyitdoesnt
+2614.44,2.44,know about cheap you tell what it,knowaboutcheapyoutellwhatit
+2615.44,4.24,doesn't know instead of what it does,doesntknowinsteadofwhatitdoes
+2616.88,5.36,until tell you like or you like you are,untiltellyoulikeoryoulikeyouare
+2619.68,4.159,only an expert at this one thing M and,onlyanexpertatthisonethingmand
+2622.24,3.079,then it starts to narrow in on it,thenitstartstonarrowinonit
+2623.839,3.441,instead of like trying to tell it,insteadofliketryingtotellit
+2625.319,3.76,everything it is it's almost like people,everythingitisitsalmostlikepeople
+2627.28,3.4,in that way right people are it's very,inthatwayrightpeopleareitsvery
+2629.079,2.961,similar to that people might know a lot,similartothatpeoplemightknowalot
+2630.68,2.76,about a you know a little bit of lot but,aboutayouknowalittlebitoflotbut
+2632.04,3.76,you need to find the expert that can dig,youneedtofindtheexpertthatcandig
+2633.44,4.0,deep in one specific subject so do you,deepinonespecificsubjectsodoyou
+2635.8,3.4,think the future of the way that some of,thinkthefutureofthewaythatsomeof
+2637.44,4.639,like in the near-term future of the way,likeintheneartermfutureoftheway
+2639.2,5.879,they're building llms and sort of the AI,theyrebuildingllmsandsortoftheai
+2642.079,4.321,systems is it going to be more domain,systemsisitgoingtobemoredomain
+2645.079,2.961,specific are we going to have these,specificarewegoingtohavethese
+2646.4,2.84,large broad language models that can do,largebroadlanguagemodelsthatcando
+2648.04,3.2,everything or are things going to really,everythingorarethingsgoingtoreally
+2649.24,4.16,start to be funneled down specific,starttobefunneleddownspecific
+2651.24,3.24,tracks I know like mixture of for those,tracksiknowlikemixtureofforthose
+2653.4,2.52,of you who are into AI stuff like,ofyouwhoareintoaistufflike
+2654.48,2.92,mixture of experts models where you,mixtureofexpertsmodelswhereyou
+2655.92,2.8,already have this is already happening a,alreadyhavethisisalreadyhappeninga
+2657.4,2.679,little bit do you think it's going to go,littlebitdoyouthinkitsgoingtogo
+2658.72,2.92,more that way less that way or going to,morethatwaylessthatwayorgoingto
+2660.079,4.561,going be broad,goingbebroad
+2661.64,5.88,shallow yeah well I I'm a big fan of the,shallowyeahwelliimabigfanofthe
+2664.64,6.12,very specific uh very quick High,veryspecificuhveryquickhigh
+2667.52,6.76,performing models and I think especially,performingmodelsandithinkespecially
+2670.76,6.28,in the business we are heading there uh,inthebusinessweareheadingthereuh
+2674.28,5.96,but the good thing is that uh there will,butthegoodthingisthatuhtherewill
+2677.04,8.48,be a lot of specific pre-trained and,bealotofspecificpretrainedand
+2680.24,7.319,fine-tuned uh um specific uh AI models,finetuneduhumspecificuhaimodels
+2685.52,6.36,and they will be able they are already,andtheywillbeabletheyarealready
+2687.559,8.401,now be able to uh talk each others okay,nowbeabletouhtalkeachothersokay
+2691.88,7.239,and so you can uh um have a you can,andsoyoucanuhumhaveayoucan
+2695.96,6.2,orchestrate a lot lot of specific models,orchestratealotlotofspecificmodels
+2699.119,6.841,and have a lot of scalability for very,andhavealotofscalabilityforvery
+2702.16,7.48,complex task and it's performing quite,complextaskanditsperformingquite
+2705.96,6.119,good compared to AI general purpose,goodcomparedtoaigeneralpurpose
+2709.64,5.88,models okay which are good if you want,modelsokaywhicharegoodifyouwant
+2712.079,7.161,to chat with I don't know chat jpt or,tochatwithidontknowchatjptor
+2715.52,7.0,gini for general purpose but uh for,giniforgeneralpurposebutuhfor
+2719.24,6.76,business I see I see the specific ones,businessiseeiseethespecificones
+2722.52,6.44,very high performing and important they,veryhighperformingandimportantthey
+2726.0,6.359,need to interrup for eight that was what,needtointerrupforeightthatwaswhat
+2728.96,3.399,I was talking this morning,iwastalkingthismorning
+2733.96,6.159,about I think the highly trained,aboutithinkthehighlytrained
+2736.88,5.719,ones specific things is just something,onesspecificthingsisjustsomething
+2740.119,4.281,somebody convinced people of there's two,somebodyconvincedpeopleoftherestwo
+2742.599,5.041,there's a probably a split on this but,theresaprobablyasplitonthisbut
+2744.4,6.48,I'm in the camp general ones make more,iminthecampgeneralonesmakemore
+2747.64,4.64,sense so I would rather just say you're,sensesoiwouldratherjustsayyoure
+2750.88,4.88,a,a
+2752.28,4.96,helpful you know Booth attendant and it,helpfulyouknowboothattendantandit
+2755.76,2.92,already knows everything about being a,alreadyknowseverythingaboutbeinga
+2757.24,3.16,helpful Booth attendant is like instead,helpfulboothattendantislikeinstead
+2758.68,3.879,of trying to I send you 1 million,oftryingtoisendyou1million
+2760.4,3.8,interactions of a booth attendant to try,interactionsofaboothattendanttotry
+2762.559,4.04,and get you to be a good like things,andgetyoutobeagoodlikethings
+2764.2,4.28,that are so obvious um there might be,thataresoobviousumtheremightbe
+2766.599,4.601,some weird things that are very specific,someweirdthingsthatareveryspecific
+2768.48,4.839,that you want to do that with but it's,thatyouwanttodothatwithbutits
+2771.2,5.76,it's getting pointless that the rate,itsgettingpointlessthattherate
+2773.319,7.361,okay so we were here a year ago mhm um,okaysowewerehereayearagomhmum
+2776.96,6.24,GPT 3.5 was the the one that I liked cuz,gpt3.5wasthetheonethatilikedcuz
+2780.68,7.439,it was like the faster you know cheaper,itwaslikethefasteryouknowcheaper
+2783.2,7.24,one and it was what did it have like,oneanditwaswhatdidithavelike
+2788.119,6.121,it just announced switching from 4K to,itjustannouncedswitchingfrom4kto
+2790.44,7.0,16k input context an output of 4K right,16kinputcontextanoutputof4kright
+2794.24,7.16,so we one year forward now I have GPT 40,soweoneyearforwardnowihavegpt40
+2797.44,6.76,"mini that does 128,000 tokens in and","minithatdoes128,000tokensinand"
+2801.4,5.32,"4,000 out I could teach it the entire","4,000outicouldteachittheentire"
+2804.2,5.6,history of civilization pretty soon in,historyofcivilizationprettysoonin
+2806.72,4.8,my prompt if I really had to so like the,mypromptifireallyhadtosolikethe
+2809.8,4.08,prompt doesn't work so well when you,promptdoesntworksowellwhenyou
+2811.52,4.0,tell it everything like I'm I'm I'm,telliteverythinglikeimimim
+2813.88,3.32,going to tell you I'm a mom going on,goingtotellyouimamomgoingon
+2815.52,3.92,vacation so like okay I love left of,vacationsolikeokayiloveleftof
+2817.2,4.159,lasagna in the fridge make put it in the,lasagnainthefridgemakeputitinthe
+2819.44,3.84,oven when you're hungry and all these,ovenwhenyourehungryandallthese
+2821.359,3.601,different things but instead you give it,differentthingsbutinsteadyougiveit
+2823.28,4.44,a bunch of temporary knowledge that you,abunchoftemporaryknowledgethatyou
+2824.96,3.96,just want it to react to so we can make,justwantittoreacttosowecanmake
+2827.72,4.16,like,like
+2828.92,6.159,spontaneous things where it learns it,spontaneousthingswhereitlearnsit
+2831.88,5.36,all makes one decision and goes away,allmakesonedecisionandgoesaway
+2835.079,3.52,again like and pretty soon so like why,againlikeandprettysoonsolikewhy
+2837.24,3.4,are you going to custom train your model,areyougoingtocustomtrainyourmodel
+2838.599,5.24,oh cuz I want to use less tokens well,ohcuziwanttouselesstokenswell
+2840.64,5.32,they've already like 16x how many tokens,theyvealreadylike16xhowmanytokens
+2843.839,4.881,you can have so pretty soon it will be,youcanhavesoprettysoonitwillbe
+2845.96,5.76,irrelevant um so it makes more sense to,irrelevantumsoitmakesmoresenseto
+2848.72,5.68,focus on being able,focusonbeingable
+2851.72,4.359,to figure out how to use that to your,tofigureouthowtousethattoyour
+2854.4,3.88,advantage to give it the information it,advantagetogiveittheinformationit
+2856.079,4.401,needs in the context it's in and let it,needsinthecontextitsinandletit
+2858.28,4.76,make decisions on it instead of trying,makedecisionsonitinsteadoftrying
+2860.48,4.079,to spend a 100 years sending a million,tospenda100yearssendingamillion
+2863.04,3.16,it doesn't mean you shouldn't save every,itdoesntmeanyoushouldntsaveevery
+2864.559,3.401,bit of data you have ever seen because,bitofdatayouhaveeverseenbecause
+2866.2,3.56,you're going to find some reason to run,youregoingtofindsomereasontorun
+2867.96,3.159,you might run machine learning on it and,youmightrunmachinelearningonitand
+2869.76,2.76,AI is going to use results of the,aiisgoingtouseresultsofthe
+2871.119,2.881,machine learning because you know AI,machinelearningbecauseyouknowai
+2872.52,3.2,isn't everything like there's lots of,isnteverythinglikethereslotsof
+2874.0,4.839,cool tricks with intent and stuff where,cooltrickswithintentandstuffwhere
+2875.72,4.92,you can take you know a thousand ways to,youcantakeyouknowathousandwaysto
+2878.839,3.441,ask uh where the bathroom is or,askuhwherethebathroomisor
+2880.64,3.36,something and just like roll them all up,somethingandjustlikerollthemallup
+2882.28,3.16,and you'll be guaranteed to know that,andyoullbeguaranteedtoknowthat
+2884.0,4.079,someone's asking you where the bathroom,someonesaskingyouwherethebathroom
+2885.44,5.0,is you know with with that so those,isyouknowwithwiththatsothose
+2888.079,4.76,things are still cool but like I think,thingsarestillcoolbutlikeithink
+2890.44,5.08,it's a diminishing return to focus too,itsadiminishingreturntofocustoo
+2892.839,3.801,much on like building exact model unless,muchonlikebuildingexactmodelunless
+2895.52,2.44,it's because you're trying to make one,itsbecauseyouretryingtomakeone
+2896.64,4.32,that's really little that it's going to,thatsreallylittlethatitsgoingto
+2897.96,5.599,run somewhere with no resources then it,runsomewherewithnoresourcesthenit
+2900.96,5.599,makes sense mhm I would just add that,makessensemhmiwouldjustaddthat
+2903.559,5.721,the um architecture of the PCS that are,theumarchitectureofthepcsthatare
+2906.559,5.28,coming out will facilitate an Enterprise,comingoutwillfacilitateanenterprise
+2909.28,4.96,refresh that large corporations then,refreshthatlargecorporationsthen
+2911.839,4.72,medium then small then your in your home,mediumthensmallthenyourinyourhome
+2914.24,3.8,you'll have the ability at your house to,youllhavetheabilityatyourhouseto
+2916.559,3.961,basically have your own small language,basicallyhaveyourownsmalllanguage
+2918.04,4.84,model and certainly today behind the,modelandcertainlytodaybehindthe
+2920.52,3.92,firewall you can do that now whether or,firewallyoucandothatnowwhetheror
+2922.88,2.719,not you choose to be a Hermit and not,notyouchoosetobeahermitandnot
+2924.44,2.96,connect to the rest of the world and,connecttotherestoftheworldand
+2925.599,3.361,just have your own knowledge base your,justhaveyourownknowledgebaseyour
+2927.4,3.6,own family history your own corporate,ownfamilyhistoryyourowncorporate
+2928.96,4.44,culture how if you remember I don't know,culturehowifyourememberidontknow
+2931.0,3.599,if any of you ever use Lotus Notes but I,ifanyofyoueveruselotusnotesbuti
+2933.4,2.6,remember Lotus Notes cuz I was a,rememberlotusnotescuziwasa
+2934.599,2.641,developer for Lotus Notes and I'll tell,developerforlotusnotesandilltell
+2936.0,3.359,you one of the things I love loved about,youoneofthethingsilovelovedabout
+2937.24,4.48,it was the ability to capture,itwastheabilitytocapture
+2939.359,4.561,information about a product about a,informationaboutaproductabouta
+2941.72,4.359,company about our culture about how to,companyaboutourcultureabouthowto
+2943.92,4.28,answer certain questions and that I,answercertainquestionsandthati
+2946.079,4.201,could equate to a in these days a small,couldequatetoainthesedaysasmall
+2948.2,5.0,language model and being able to have,languagemodelandbeingabletohave
+2950.28,4.799,that own that and protect that behind my,thatownthatandprotectthatbehindmy
+2953.2,4.44,firewall so that every employee works on,firewallsothateveryemployeeworkson
+2955.079,5.04,our team knows knows those things that's,ourteamknowsknowsthosethingsthats
+2957.64,4.56,valuable but in terms of deploying,valuablebutintermsofdeploying
+2960.119,4.321,information yeah I actually think that,informationyeahiactuallythinkthat
+2962.2,3.48,for some people it comes to culture some,forsomepeopleitcomestoculturesome
+2964.44,3.119,people are going to want to have access,peoplearegoingtowanttohaveaccess
+2965.68,3.919,to everything behind the firor,toeverythingbehindthefiror
+2967.559,3.76,they can afford it many others will do,theycanafforditmanyotherswilldo
+2969.599,3.681,it um on the public internet and that's,itumonthepublicinternetandthats
+2971.319,3.641,really just goes to the type of company,reallyjustgoestothetypeofcompany
+2973.28,3.36,you're in the industry you're in and,youreintheindustryyoureinand
+2974.96,3.48,what's evolving and frankly what you,whatsevolvingandfranklywhatyou
+2976.64,3.36,need to touch and what you need to,needtotouchandwhatyouneedto
+2978.44,2.919,connect to and how secure you are,connecttoandhowsecureyouare
+2980.0,3.48,because you know there's a lot of,becauseyouknowtheresalotof
+2981.359,4.641,security concerns up and down right and,securityconcernsupanddownrightand
+2983.48,4.28,and you would need to protect so I I,andyouwouldneedtoprotectsoii
+2986.0,4.2,think the answer is both depending upon,thinktheanswerisbothdependingupon
+2987.76,6.44,the situation but I do think that there,thesituationbutidothinkthatthere
+2990.2,6.68,is a an opportunity to go small and a,isaanopportunitytogosmallanda
+2994.2,5.08,year from now God knows how big GPT can,yearfromnowgodknowshowbiggptcan
+2996.88,5.28,go and so you you what you'll start to,goandsoyouyouwhatyoullstartto
+2999.28,5.079,find is rather than the hype of AI,findisratherthanthehypeofai
+3002.16,4.6,happening you're going to start finding,happeningyouregoingtostartfinding
+3004.359,4.76,real applications that never before,realapplicationsthatneverbefore
+3006.76,3.72,practical or possible finally starting,practicalorpossiblefinallystarting
+3009.119,3.601,to happen if you want to see the impact,tohappenifyouwanttoseetheimpact
+3010.48,4.56,of chat GPT look into the physical,ofchatgptlookintothephysical
+3012.72,4.0,sciences you'd be amazed if you look in,sciencesyoudbeamazedifyoulookin
+3015.04,3.44,the science side how many things how,thesciencesidehowmanythingshow
+3016.72,3.399,many things have been discovered in the,manythingshavebeendiscoveredinthe
+3018.48,3.8,past 18 months you want to find a cure,past18monthsyouwanttofindacure
+3020.119,4.601,for cancer they're finding cures for,forcancertheyrefindingcuresfor
+3022.28,4.839,different cancers already and there's,differentcancersalreadyandtheres
+3024.72,4.8,lots of places in science that have,lotsofplacesinsciencethathave
+3027.119,4.72,benefited tremendously almost,benefitedtremendouslyalmost
+3029.52,5.319,accidentally through our quest to drive,accidentallythroughourquesttodrive
+3031.839,4.881,AI so I I don't say disconnect I say,aisoiidontsaydisconnectisay
+3034.839,3.96,let's see what happens but the the,letsseewhathappensbutthethe
+3036.72,4.16,killer apps those use cases they'll,killerappsthoseusecasestheyll
+3038.799,3.56,present themselves as we fight it out to,presentthemselvesaswefightitoutto
+3040.88,4.08,figure out the value on The Voice side,figureoutthevalueonthevoiceside
+3042.359,4.72,it's great I think I I'm super bullish,itsgreatithinkiimsuperbullish
+3044.96,3.48,on it I'm curious we only have another,onitimcuriousweonlyhaveanother
+3047.079,4.401,couple minutes here are there any,coupleminutesherearethereany
+3048.44,3.04,questions people have,questionspeoplehave
+3051.52,4.799,yeah over here cat,yeahoverherecat
+3059.0,6.559,with AI uh in the telephony,withaiuhinthetelephony
+3062.599,5.161,space with speech to Texs they can if,spacewithspeechtotexstheycanif
+3065.559,3.961,they record me talking for you know a,theyrecordmetalkingforyouknowa
+3067.76,4.28,couple minutes they can make a bot that,coupleminutestheycanmakeabotthat
+3069.52,5.079,sounds like me which means that you're,soundslikemewhichmeansthatyoure
+3072.04,4.279,going to have an increase of Bad actors,goingtohaveanincreaseofbadactors
+3074.599,3.921,that are calling my grandmother saying,thatarecallingmygrandmothersaying
+3076.319,4.28,that I'm in a hospital or I'm in jail,thatiminahospitaloriminjail
+3078.52,3.799,and they need to bail me out we're,andtheyneedtobailmeoutwere
+3080.599,3.48,seeing increased number of fishing,seeingincreasednumberoffishing
+3082.319,5.201,attempts I'm a cyber security guy so,attemptsimacybersecurityguyso
+3084.079,6.04,here's where my brain's at um we need a,hereswheremybrainsatumweneeda
+3087.52,4.88,way to authenticate people and who they,waytoauthenticatepeopleandwhothey
+3090.119,4.881,are and to know whether you're talking,areandtoknowwhetheryouretalking
+3092.4,3.76,to a real person or you're talking to a,toarealpersonoryouretalkingtoa
+3095.0,6.04,bot,bot
+3096.16,8.48,MH how does free switch how do H how do,mhhowdoesfreeswitchhowdohhowdo
+3101.04,6.6,we do this in telepan correctly,wedothisintelepancorrectly
+3104.64,4.199,mhm well as a this is a very common,mhmwellasathisisaverycommon
+3107.64,3.52,question too so I'm sure we have some,questiontoosoimsurewehavesome
+3108.839,5.24,great answers so here we go again sorry,greatanswerssoherewegoagainsorry
+3111.16,5.199,on the on the Voice uh as so as someone,ontheonthevoiceuhassoassomeone
+3114.079,6.0,who you know I I got a stark reminder,whoyouknowiigotastarkreminder
+3116.359,7.161,that my mother is now 73 years old and,thatmymotherisnow73yearsoldand
+3120.079,5.52,got taken by the old oh uh your bank is,gottakenbytheoldohuhyourbankis
+3123.52,6.039,trying to steal from you um you know,tryingtostealfromyouumyouknow
+3125.599,5.841,"ended up taking out $25,000 and $100","endeduptakingout25,000and100"
+3129.559,5.121,bills and feeding it into Bitcoin ATM,billsandfeedingitintobitcoinatm
+3131.44,5.52,machines around town um and one of the,machinesaroundtownumandoneofthe
+3134.68,5.52,things that one of the like funny but,thingsthatoneofthelikefunnybut
+3136.96,5.04,not funny it's I'm I'm laughing about it,notfunnyitsimimlaughingaboutit
+3140.2,4.52,now I don't know I don't know if she is,nowidontknowidontknowifsheis
+3142.0,4.64,but uh yeah anyway so um you know,butuhyeahanywaysoumyouknow
+3144.72,3.44,something that occurred to me from this,somethingthatoccurredtomefromthis
+3146.64,3.719,uh you know she was so freaked out by,uhyouknowshewassofreakedoutby
+3148.16,4.72,this whole thing um you know finally got,thiswholethingumyouknowfinallygot
+3150.359,4.601,her on the phone and it wasn't until I,heronthephoneanditwasntuntili
+3152.88,4.28,essentially predicted every aspect of,essentiallypredictedeveryaspectof
+3154.96,3.599,this scam and said Mom let me guess you,thisscamandsaidmomletmeguessyou
+3157.16,3.08,got this email whatever else you thought,gotthisemailwhateverelseyouthought
+3158.559,4.24,you were talking to Microsoft do to do,youweretalkingtomicrosoftdotodo
+3160.24,4.839,something about Bitcoin only then did,somethingaboutbitcoinonlythendid
+3162.799,4.081,she start to believe me that this was in,shestarttobelievemethatthiswasin
+3165.079,3.28,fact a scam and not Agents from the,factascamandnotagentsfromthe
+3166.88,5.36,Federal Trade Commission or whatever,federaltradecommissionorwhatever
+3168.359,5.96,their crazy story was and the probably,theircrazystorywasandtheprobably
+3172.24,3.96,the biggest kind of lesson learned from,thebiggestkindoflessonlearnedfrom
+3174.319,3.52,this I'm reminded of uh kind of,thisimremindedofuhkindof
+3176.2,3.96,something to the effect of like in the,somethingtotheeffectoflikeinthe
+3177.839,4.201,'90s when I was growing up there was,90swheniwasgrowinguptherewas
+3180.16,4.8,this whole campaign of like talk to your,thiswholecampaignofliketalktoyour
+3182.04,6.039,kids about drugs remember that thing um,kidsaboutdrugsrememberthatthingum
+3184.96,4.8,and I looked at this and I thought if I,andilookedatthisandithoughtifi
+3188.079,4.04,you know if I talk to my mom every once,youknowifitalktomymomeveryonce
+3189.76,5.16,in a while about the scam of the day,inawhileaboutthescamoftheday
+3192.119,5.48,basically um you know maybe this would,basicallyumyouknowmaybethiswould
+3194.92,4.36,not have happened and so you know now,nothavehappenedandsoyouknownow
+3197.599,3.24,I'm thinking okay maybe somewhere in my,imthinkingokaymaybesomewhereinmy
+3199.28,4.039,spare time when I'm not at nuclear power,sparetimewhenimnotatnuclearpower
+3200.839,4.201,plants or whatever um you know start a,plantsorwhateverumyouknowstarta
+3203.319,4.28,start a campaign something to the effect,startacampaignsomethingtotheeffect
+3205.04,4.24,of like you know we're,oflikeyouknowwere
+3207.599,3.121,you know very knowledgeable in these,youknowveryknowledgeableinthese
+3209.28,4.48,kinds of things and this this question,kindsofthingsandthisthisquestion
+3210.72,5.839,articulates that very well um just a,articulatesthatverywellumjusta
+3213.76,4.559,kind of a fundamental education aspect,kindofafundamentaleducationaspect
+3216.559,5.8,here of you know certainly in my case,hereofyouknowcertainlyinmycase
+3218.319,6.081,like talk to your now elderly parents so,liketalktoyournowelderlyparentsso
+3222.359,3.681,societal awareness is kind of a part of,societalawarenessiskindofapartof
+3224.4,2.8,it yes absolutely thank you that's,ityesabsolutelythankyouthats
+3226.04,4.039,that's what I was getting at that's the,thatswhatiwasgettingatthatsthe
+3227.2,6.0,point great yeah no it's great,pointgreatyeahnoitsgreat
+3230.079,7.24,je on the technical,jeonthetechnical
+3233.2,6.2,side so you have audio and and you have,sidesoyouhaveaudioandandyouhave
+3237.319,5.961,video and which are images which are,videoandwhichareimageswhichare
+3239.4,6.08,Digital Data um there are some things,digitaldataumtherearesomethings
+3243.28,4.559,that I think that we would like to,thatithinkthatwewouldliketo
+3245.48,3.96,implement as far as recordings and,implementasfarasrecordingsand
+3247.839,4.0,whatnot where you put like digital,whatnotwhereyouputlikedigital
+3249.44,5.2,watermarks into it um since you're,watermarksintoitumsinceyoure
+3251.839,4.72,manipulating the bitstream you can kind,manipulatingthebitstreamyoucankind
+3254.64,3.76,of put a secret pattern in there that no,ofputasecretpatternintherethatno
+3256.559,3.841,one can you can't hear it in the audio,onecanyoucanthearitintheaudio
+3258.4,4.24,but if you scan the file it would have,butifyouscanthefileitwouldhave
+3260.4,3.88,like an entire you know edat Joe's,likeanentireyouknowedatjoes
+3262.64,3.959,message could be encoded in there or,messagecouldbeencodedinthereor
+3264.28,3.839,this was recorded done whatever date but,thiswasrecordeddonewhateverdatebut
+3266.599,4.121,in is not for,inisnotfor
+3268.119,5.081,reproduction um maybe someone could take,reproductionummaybesomeonecouldtake
+3270.72,4.32,that recording and then like analog air,thatrecordingandthenlikeanalogair
+3273.2,3.599,gap it back into another one and still,gapitbackintoanotheroneandstill
+3275.04,3.88,be evil but like at least you could get,beevilbutlikeatleastyoucouldget
+3276.799,3.121,it to where the files when they existed,ittowherethefileswhentheyexisted
+3278.92,3.52,were,were
+3279.92,3.36,authenticated um and that you would be,authenticatedumandthatyouwouldbe
+3282.44,3.679,able,able
+3283.28,4.76,to make sure that you're not just like,tomakesurethatyourenotjustlike
+3286.119,5.161,helping the problem I would say like,helpingtheproblemiwouldsaylike
+3288.04,5.64,every single security problem ever um we,everysinglesecurityproblemeverumwe
+3291.28,4.6,do stuff to try and solve it and people,dostufftotryandsolveitandpeople
+3293.68,5.48,try and use things that we do to abuse,tryandusethingsthatwedotoabuse
+3295.88,5.919,it um going back to Aster's days like I,itumgoingbacktoastersdayslikei
+3299.16,4.36,still recognize the D D sound when,stillrecognizetheddsoundwhen
+3301.799,3.481,someone tries to call me who's like a,someonetriestocallmewhoslikea
+3303.52,4.839,scammer and was like oh you're using,scammerandwaslikeohyoureusing
+3305.28,4.72,asterisk that's the the the join noise,asteriskthatsthethethejoinnoise
+3308.359,4.561,that's hardcoded into one of the header,thatshardcodedintooneoftheheader
+3310.0,4.359,files that I know well um or you know,filesthatiknowwellumoryouknow
+3312.92,3.32,you know they're using you hear the,youknowtheyreusingyouhearthe
+3314.359,3.601,voices of the built-in sound files that,voicesofthebuiltinsoundfilesthat
+3316.24,5.28,come with free switch and you you're,comewithfreeswitchandyouyoure
+3317.96,6.599,like ah why did I help you do this you,likeahwhydidihelpyoudothisyou
+3321.52,6.079,but so we we try and uh make up for that,butsowewetryanduhmakeupforthat
+3324.559,5.441,by coming up with cool ways to invent,bycomingupwithcoolwaystoinvent
+3327.599,5.681,you know secure ways to deal with things,youknowsecurewaystodealwiththings
+3330.0,5.839,and I think that's kind of like a you,andithinkthatskindoflikeayou
+3333.28,4.6,definitely can take any recording of,definitelycantakeanyrecordingof
+3335.839,3.881,someone talking and clone it pretty well,someonetalkingandcloneitprettywell
+3337.88,3.4,and all you got to do is promise that,andallyougottodoispromisethat
+3339.72,3.599,it's you're allowed to and that no one,itsyoureallowedtoandthatnoone
+3341.28,3.799,actually does anything if you do and you,actuallydoesanythingifyoudoandyou
+3343.319,4.0,can get away with it the best they're,cangetawaywithitthebesttheyre
+3345.079,5.641,starting to do now is kind of like the,startingtodonowiskindoflikethe
+3347.319,5.121,stuff that you get with u Shazam kind of,stuffthatyougetwithushazamkindof
+3350.72,4.119,Technology only for your voice so you,technologyonlyforyourvoicesoyou
+3352.44,5.359,can tell like I know this is like Joe,cantelllikeiknowthisislikejoe
+3354.839,4.72,Biden so I'm not going to let you do it,bidensoimnotgoingtoletyoudoit
+3357.799,4.161,um good like even if it's sort of a,umgoodlikeevenifitssortofa
+3359.559,5.161,thumb a fingerprint based on certain,thumbafingerprintbasedoncertain
+3361.96,4.56,patterns um but we're going to get to,patternsumbutweregoingtogetto
+3364.72,3.359,the point where it's gets interesting,thepointwhereitsgetsinteresting
+3366.52,3.519,because there's so many voices that,becausetheressomanyvoicesthat
+3368.079,4.121,sound the same already right there's,soundthesamealreadyrighttheres
+3370.039,4.601,already people that do,alreadypeoplethatdo
+3372.2,4.76,impersonations um so also on the risk,impersonationsumsoalsoontherisk
+3374.64,4.36,that someone just impersonates,thatsomeonejustimpersonates
+3376.96,3.44,themselves into the voice cloner and it,themselvesintothevoiceclonerandit
+3379.0,4.079,comes out sounding the same as a real,comesoutsoundingthesameasareal
+3380.4,5.6,one even more like the impersonation did,oneevenmoreliketheimpersonationdid
+3383.079,5.24,um but voices are almost as unique as,umbutvoicesarealmostasuniqueas
+3386.0,5.359,like art now because there have so many,likeartnowbecausetherehavesomany
+3388.319,5.641,there's like 100 imaginary voices now,thereslike100imaginaryvoicesnow
+3391.359,4.2,people just mix and match a few like,peoplejustmixandmatchafewlike
+3393.96,3.119,pull some lever here and there and you,pullsomeleverhereandthereandyou
+3395.559,3.321,get all these different combos which is,getallthesedifferentcomboswhichis
+3397.079,5.28,the same thing that our genetics do with,thesamethingthatourgeneticsdowith
+3398.88,5.479,their voice box so yeah it's like it's,theirvoiceboxsoyeahitslikeits
+3402.359,6.081,going to be to the point we probably,goingtobetothepointweprobably
+3404.359,7.041,will stop believing anybody anymore it,willstopbelievinganybodyanymoreit
+3408.44,4.159,might be the only solution or we lying,mightbetheonlysolutionorwelying
+3411.4,2.679,yeah everyone's lying all the time you,yeaheveryoneslyingallthetimeyou
+3412.599,3.041,know I don't know if the technology will,knowidontknowifthetechnologywill
+3414.079,3.52,stop the voice cloning because again if,stopthevoicecloningbecauseagainif
+3415.64,4.719,you have bad intent you you'll do it,youhavebadintentyouyoulldoit
+3417.599,5.161,anyway but there is a way to validate uh,anywaybutthereisawaytovalidateuh
+3420.359,4.921,whether to a vcon is real or not there,whethertoavconisrealornotthere
+3422.76,3.64,is already a process to validate that so,isalreadyaprocesstovalidatethatso
+3425.28,2.64,if you're looking through an,ifyourelookingthroughan
+3426.4,3.76,architecture to see whether or not a,architecturetoseewhetherornota
+3427.92,5.08,conversation actually happened and was,conversationactuallyhappenedandwas
+3430.16,5.159,properly formatted as a vcon that that's,properlyformattedasavconthatthats
+3433.0,4.48,already been designed but in terms of to,alreadybeendesignedbutintermsofto
+3435.319,6.0,stop the fraud and to stop the voice,stopthefraudandtostopthevoice
+3437.48,5.44,cloning no that's I I'm not sure of,cloningnothatsiimnotsureof
+3441.319,2.961,anything in place right now that will,anythinginplacerightnowthatwill
+3442.92,2.52,prevent someone from doing something bad,preventsomeonefromdoingsomethingbad
+3444.28,3.4,if they intentionally want to do,iftheyintentionallywanttodo
+3445.44,7.08,something bad bad does happen hopefully,somethingbadbaddoeshappenhopefully
+3447.68,4.84,we can track the bad and stop the bad,wecantrackthebadandstopthebad
+3452.88,3.919,right okay well I think that's about all,rightokaywellithinkthatsaboutall
+3454.96,3.24,the time we have for today everybody uh,thetimewehavefortodayeverybodyuh
+3456.799,2.32,thank you guys so much for standing up,thankyouguyssomuchforstandingup
+3458.2,2.599,here I really appreciate the,hereireallyappreciatethe
+3459.119,3.601,conversation I hope that everybody took,conversationihopethateverybodytook
+3460.799,3.681,something away from this and heard some,somethingawayfromthisandheardsome
+3462.72,3.639,interesting tidbits maybe they can use,interestingtidbitsmaybetheycanuse
+3464.48,3.16,or talk about later again I think,ortalkaboutlateragainithink
+3466.359,2.521,everyone's going to be at the reception,everyonesgoingtobeatthereception
+3467.64,3.199,tonight right every coming to the,tonightrighteverycomingtothe
+3468.88,3.04,gigabit reception so if you have more,gigabitreceptionsoifyouhavemore
+3470.839,2.921,questions we're going to talk further,questionsweregoingtotalkfurther
+3471.92,3.199,about these things oneon-one I'm sure,aboutthesethingsoneononeimsure
+3473.76,2.92,we'd all love to talk to you about it,wedalllovetotalktoyouaboutit
+3475.119,5.641,again thank you all so much and,againthankyouallsomuchand
+3476.68,4.08,everybody have a wonderful evening,everybodyhaveawonderfulevening
