@@ -197,4 +197,15 @@ cython_debug/
 .project-structure
 
 
+# Transcripts csv
 data/raw/transcripts
+data/processed
+
+# Cache Data
+data/processed/sequence_cache.npz
+
+# Exploration data
+notebooks/data
+
+# Model run history
+models/runs
