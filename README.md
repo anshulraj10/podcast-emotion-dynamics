@@ -62,7 +62,7 @@ podcast-emotion-dynamics/
 ## Dataset
 
 The dataset is not stored in the repository due to size. A preprocessed dataset will be shared via external hosting:  
-**[Download Dataset (placeholder link)](https://example.com/dataset.zip)**  
+**[Download Dataset](https://huggingface.co/datasets/anshulraj10/youtube-podcast-data)**  
 
 To use your own dataset:
 1. Collect metadata: `python scripts/data_collection/collect_youtube.py`  
@@ -77,7 +77,7 @@ To use your own dataset:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/podcast-emotion-dynamics.git
+git clone https://github.com/anshulraj10/podcast-emotion-dynamics.git
 cd podcast-emotion-dynamics
 python3 -m venv venv
 source venv/bin/activate

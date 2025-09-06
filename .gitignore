@@ -215,3 +215,5 @@ models/runs
 
 # Zip files
 *.zip
+
+upload_data_to_hf.py
