@@ -1,10 +1,12 @@
 from torch.utils.data import Dataset
 from pathlib import Path
 import numpy as np
+import pickle
 import ast
 import torch
 
 CACHE_PATH = Path(__file__).parent.parent / Path("data/processed/engagement_dataset_cache.npz")
+TARGET_SCALER_PATH = Path(__file__).parent.parent / "models/target_scaler.pkl"
 TARGET_COLUMNS = ["viewCount", "likeCount"]
 
 # --- Dataset Class ---
@@ -36,7 +38,12 @@ class EngagementDataset(Dataset):
 
         self.X_seq = np.array(emotion_sequences).astype(np.float32)
         self.X_static = static_features.values.astype(np.float32)
-        self.y = np.log1p(dataframe[TARGET_COLUMNS].values.astype(np.float32))
+        
+        with open(TARGET_SCALER_PATH, "rb") as f:
+            target_scaler = pickle.load(f)
+
+        log_y = np.log1p(dataframe[TARGET_COLUMNS].values.astype(np.float32))
+        self.y = target_scaler.transform(log_y).astype(np.float32)
 
         np.savez(CACHE_PATH, X_seq=self.X_seq, X_static=self.X_static, y=self.y)
 

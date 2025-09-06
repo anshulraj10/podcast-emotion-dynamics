@@ -6,10 +6,10 @@ import ast
 from sklearn.preprocessing import RobustScaler
 import pickle
 
-EMOTIONS_FILE = INPUT_DIR = Path(__file__).parent.parent / Path("data/processed/emotions.csv")
-CPS_FILE = INPUT_DIR = Path(__file__).parent.parent / Path("data/processed/emotion_change_points.csv")
-METADATA_FILE = INPUT_DIR = Path(__file__).parent.parent / Path("data/raw/metadata.csv")
-OUTPUT_FILE = INPUT_DIR = Path(__file__).parent.parent / Path("data/processed/dataset.csv")
+EMOTIONS_FILE = Path(__file__).parent.parent / Path("data/processed/emotions.csv")
+CPS_FILE = Path(__file__).parent.parent / Path("data/processed/emotion_change_points.csv")
+METADATA_FILE = Path(__file__).parent.parent / Path("data/raw/metadata.csv")
+OUTPUT_FILE = Path(__file__).parent.parent / Path("data/processed/dataset.csv")
 
 def change_point_mask(change_points, length=100):
     """
@@ -51,20 +51,24 @@ if __name__ == "__main__":
     
     feature_columns_to_scale = ['channelViewCount', 'subscriberCount', 'channelVideoCount']
     target_columns_to_scale = ['viewCount', 'likeCount']
-    
+
+    # --- Feature scaler (same as before) ---
     feature_scaler = RobustScaler()
     feature_scaler.fit(metadata_df[feature_columns_to_scale])
     with open('../models/feature_scaler.pkl', 'wb') as file:
-        pickle.dump(feature_scaler, file) 
+        pickle.dump(feature_scaler, file)
 
+    metadata_df[feature_columns_to_scale] = feature_scaler.transform(metadata_df[feature_columns_to_scale])
+
+    # --- Target scaler on *log* counts; do NOT transform the dataframe here ---
+    log_targets = np.log1p(metadata_df[target_columns_to_scale].values)
     target_scaler = RobustScaler()
-    target_scaler.fit(metadata_df[target_columns_to_scale])
+    target_scaler.fit(log_targets)
     with open('../models/target_scaler.pkl', 'wb') as file:
         pickle.dump(target_scaler, file)
-        
-    metadata_df[feature_columns_to_scale] = feature_scaler.transform(metadata_df[feature_columns_to_scale])
-    metadata_df[target_columns_to_scale] = target_scaler.transform(metadata_df[target_columns_to_scale])
 
     # --- Merge all dataframes on video_id ---
     df = emotions_df.merge(change_points_df, on="video_id", how="inner")
     df = df.merge(metadata_df, on="video_id", how="inner")
+    
+    df.to_csv(OUTPUT_FILE, index=False)

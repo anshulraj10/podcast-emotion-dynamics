@@ -1,132 +1,128 @@
+# scripts/test_model.py
 import pickle
-from matplotlib import pyplot as plt
+import numpy as np
 import torch
-from random import randint
 from pathlib import Path
 from torch.utils.data import DataLoader
-import numpy as np
-from EngagementModel import EngagementModel
-from EngagementDataset import EngagementDataset
 from torch.serialization import add_safe_globals
 from torch.utils.data.dataset import Subset
+
+from EngagementModel import EngagementModel
 from utils import save_scatter_graph, save_graph
 
-# --- CONFIG ---
+# --- Torch safety for loading saved Subset objects ---
 add_safe_globals([Subset])
-DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
-MODEL_PATH = Path(__file__).parent.parent / Path("models/engagement_model.pt")
-TARGET_SCALER_PATH = Path(__file__).parent.parent / Path("models/target_scaler.pkl")
-TEST_DATASET_PATH = Path(__file__).parent.parent / Path("data/processed/test_dataset.pt")
-IMAGES_DIR = Path(__file__).parent.parent / Path("images")
-BATCH_SIZE = 128
 
-# Set the model architecture args (must match training script)
-SEQ_INPUT_DIM = 29  # adjust based on dataset shape
-STATIC_INPUT_DIM = 6  # adjust based on your static features
+# --- CONFIG ---
+DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+ROOT = Path(__file__).parent.parent
+
+MODEL_PATH = ROOT / "models/engagement_model.pt"
+TARGET_SCALER_PATH = ROOT / "models/target_scaler.pkl"
+TEST_DATASET_PATH = ROOT / "data/processed/test_dataset.pt"
+IMAGES_DIR = ROOT / "images"
+
+# Must match training-time architecture
+SEQ_INPUT_DIM = 29          # number of emotion features per timestep
+STATIC_INPUT_DIM = 6        # number of static features
 HIDDEN_SIZE = 128
 TRANSFORMER_HEADS = 4
 DROPOUT = 0.15
+BATCH_SIZE = 128
 
-model = EngagementModel(seq_input_dim=SEQ_INPUT_DIM, static_input_dim=STATIC_INPUT_DIM,
-                        hidden_size=HIDDEN_SIZE, transformer_heads=TRANSFORMER_HEADS, dropout=DROPOUT).to(DEVICE)
-
-def inverse_transform_and_clip(preds, scaler, percentile_bounds=(5, 95)):
-    preds_np = np.expm1(preds)
-    preds_unscaled = scaler.inverse_transform(preds_np)
-    clipped = np.clip(
-        preds_unscaled,
-        np.percentile(preds_unscaled, percentile_bounds[0], axis=0),
-        np.percentile(preds_unscaled, percentile_bounds[1], axis=0)
-    )
-    return clipped
-
-# --- Manual Testing ---
-with torch.no_grad():
+def main():
+    # --- Build model and load weights ---
+    model = EngagementModel(
+        seq_input_dim=SEQ_INPUT_DIM,
+        static_input_dim=STATIC_INPUT_DIM,
+        hidden_size=HIDDEN_SIZE,
+        transformer_heads=TRANSFORMER_HEADS,
+        dropout=DROPOUT,
+    ).to(DEVICE)
     model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
     model.eval()
-    
+
+    # --- Load test dataset subset saved during training ---
     test_ds = torch.load(TEST_DATASET_PATH, weights_only=False)
     test_dl = DataLoader(test_ds, batch_size=BATCH_SIZE)
-    
-    # Initialize lists to store all predictions and ground truth
-    all_predictions = []
-    all_ground_truth = []
-    
-    # Process all batches in the test dataloader
-    for xb_seq, xb_static, yb in test_dl:
-        out = model(xb_seq.to(DEVICE), xb_static.to(DEVICE))
-        pred = torch.cat([out['views_mean'], out['likes_mean']], dim=1).cpu().numpy()
-        y_true = yb.numpy()
-        
-        all_predictions.append(pred)
-        all_ground_truth.append(y_true)
-    
-# Concatenate all batches
-all_predictions = np.concatenate(all_predictions, axis=0)
-all_ground_truth = np.concatenate(all_ground_truth, axis=0)
 
-# Load scaler and inverse transform
-with open(TARGET_SCALER_PATH, 'rb') as file:
-    loaded_scaler = pickle.load(file)
+    # --- Forward pass over test set ---
+    all_pred_scaled_log = []
+    all_true_scaled_log = []
 
-pred_unscaled = inverse_transform_and_clip(all_predictions, loaded_scaler)
-y_unscaled = loaded_scaler.inverse_transform(np.expm1(all_ground_truth))
+    with torch.no_grad():
+        for xb_seq, xb_static, yb in test_dl:
+            out = model(xb_seq.to(DEVICE), xb_static.to(DEVICE))
+            # Concatenate the two point-estimate heads in the same order as targets: [views, likes]
+            pred_batch = torch.cat([out["views_mean"], out["likes_mean"]], dim=1).cpu().numpy()
+            y_true_batch = yb.cpu().numpy()
 
-# Calculate metrics on entire test set
-rmse = np.sqrt(np.mean((pred_unscaled - y_unscaled) ** 2, axis=0))
-mae = np.mean(np.abs(pred_unscaled - y_unscaled), axis=0)
+            all_pred_scaled_log.append(pred_batch)
+            all_true_scaled_log.append(y_true_batch)
 
-print(f"Total test samples: {len(all_predictions)}")
-print(f"ViewCount  →  RMSE = {rmse[0]:,.2f}  |  MAE = {mae[0]:,.2f}")
-print(f"LikeCount  →  RMSE = {rmse[1]:,.2f}  |  MAE = {mae[1]:,.2f}")
+    pred_scaled_log = np.concatenate(all_pred_scaled_log, axis=0)
+    y_scaled_log = np.concatenate(all_true_scaled_log, axis=0)
 
-# for idx in [randint(1, len(pred_unscaled)-1) for _ in range(10)]:
-#     print(f"Predicted: Views={pred_unscaled[idx][0]:,.0f}, Likes={pred_unscaled[idx][1]:,.0f} | Actual: Views={y_unscaled[idx][0]:,.0f}, Likes={y_unscaled[idx][1]:,.0f}")
-    
+    # --- Invert scaling correctly: scaled-log -> log -> counts ---
+    with open(TARGET_SCALER_PATH, "rb") as f:
+        target_scaler = pickle.load(f)
 
-save_scatter_graph(
-    filename="views_scatter_predicted_vs_actual",
-    actual=y_unscaled[:, 0],
-    predicted=pred_unscaled[:, 0],
-    x_label="Actual Views",
-    y_label="Predicted Views",
-    title="Views: Predicted vs Actual (Scatter Plot)"
-)
+    pred_log = target_scaler.inverse_transform(pred_scaled_log)
+    y_log = target_scaler.inverse_transform(y_scaled_log)
 
-save_scatter_graph(
-    filename="likes_scatter_predicted_vs_actual",
-    actual=y_unscaled[:, 1],
-    predicted=pred_unscaled[:, 1],
-    x_label="Actual Likes",
-    y_label="Predicted Likes",
-    title="Likes: Predicted vs Actual (Scatter Plot)"
-)
+    pred_counts = np.expm1(pred_log)
+    y_counts = np.expm1(y_log)
 
-views_data = [
-    (y_unscaled[:, 0], "Actual Views"),
-    (pred_unscaled[:, 0], "Predicted Views")
-]
+    # --- Metrics (count space) ---
+    rmse = np.sqrt(np.mean((pred_counts - y_counts) ** 2, axis=0))
+    mae = np.mean(np.abs(pred_counts - y_counts), axis=0)
 
-save_graph(
-    filename="views_predicted_vs_actual",
-    data=views_data,
-    x_label="Sample Index",
-    y_label="View Count",
-    title="Predicted vs Actual Views",
-    figsize=(12, 8)
-)
+    print(f"Total test samples: {len(pred_counts)}")
+    print(f"ViewCount  →  RMSE = {rmse[0]:,.2f}  |  MAE = {mae[0]:,.2f}")
+    print(f"LikeCount  →  RMSE = {rmse[1]:,.2f}  |  MAE = {mae[1]:,.2f}")
 
-# Create predicted vs actual line graph for Likes
-likes_data = [
-    (y_unscaled[:, 1], "Actual Likes"),
-    (pred_unscaled[:, 1], "Predicted Likes")
-]
+    # (Optional) Diagnostics on the log scale
+    rmse_log = np.sqrt(np.mean((pred_log - y_log) ** 2, axis=0))
+    mae_log = np.mean(np.abs(pred_log - y_log), axis=0)
+    print(f"(Log space) Views RMSE={rmse_log[0]:.4f}, Likes RMSE={rmse_log[1]:.4f}")
+    print(f"(Log space) Views MAE={mae_log[0]:.4f}, Likes MAE={mae_log[1]:.4f}")
 
-save_graph(
-    filename="likes_predicted_vs_actual",
-    data=likes_data,
-    x_label="Sample Index",
-    y_label="Like Count",
-    title="Predicted vs Actual Likes",
-    figsize=(12, 8)
-)
+    # --- Plots ---
+    # Scatter: Predicted vs Actual (counts)
+    save_scatter_graph(
+        filename="views_scatter_predicted_vs_actual",
+        actual=y_counts[:, 0],
+        predicted=pred_counts[:, 0],
+        x_label="Actual Views",
+        y_label="Predicted Views",
+        title="Views: Predicted vs Actual (Scatter Plot)",
+    )
+    save_scatter_graph(
+        filename="likes_scatter_predicted_vs_actual",
+        actual=y_counts[:, 1],
+        predicted=pred_counts[:, 1],
+        x_label="Actual Likes",
+        y_label="Predicted Likes",
+        title="Likes: Predicted vs Actual (Scatter Plot)",
+    )
+
+    # Line plots over sample index (counts)
+    save_graph(
+        filename="views_predicted_vs_actual",
+        data=[(y_counts[:, 0], "Actual Views"), (pred_counts[:, 0], "Predicted Views")],
+        x_label="Sample Index",
+        y_label="View Count",
+        title="Predicted vs Actual Views",
+        figsize=(12, 8),
+    )
+    save_graph(
+        filename="likes_predicted_vs_actual",
+        data=[(y_counts[:, 1], "Actual Likes"), (pred_counts[:, 1], "Predicted Likes")],
+        x_label="Sample Index",
+        y_label="Like Count",
+        title="Predicted vs Actual Likes",
+        figsize=(12, 8),
+    )
+
+if __name__ == "__main__":
+    main()
