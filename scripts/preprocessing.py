@@ -1,74 +1,151 @@
-import pandas as pd
-from datetime import datetime, timezone
-from pathlib import Path
-import numpy as np
 import ast
-from sklearn.preprocessing import RobustScaler
 import pickle
+from pathlib import Path
+from datetime import datetime
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import RobustScaler
 
-EMOTIONS_FILE = Path(__file__).parent.parent / Path("data/processed/emotions.csv")
-CPS_FILE = Path(__file__).parent.parent / Path("data/processed/emotion_change_points.csv")
-METADATA_FILE = Path(__file__).parent.parent / Path("data/raw/metadata.csv")
-OUTPUT_FILE = Path(__file__).parent.parent / Path("data/processed/dataset.csv")
+# ---------- Paths ----------
+ROOT = Path(__file__).parent.parent
+EMOTIONS_FILE = ROOT / "data/processed/emotions.csv"
+CPS_FILE      = ROOT / "data/processed/emotion_change_points.csv"
+METADATA_FILE = ROOT / "data/raw/metadata.csv"
+OUTPUT_FILE   = ROOT / "data/processed/dataset.csv"
 
-def change_point_mask(change_points, length=100):
-    """
-    Converts change point indices to a fixed length binary list
+FEATURE_SCALER_PATH = ROOT / "models/feature_scaler.pkl"
+TARGET_SCALER_PATH  = ROOT / "models/target_scaler.pkl"
 
-    Args:
-        change_points (list): list of change points indices
-
-    Returns:
-        list: fixed length binary list
-    """
-    change_points = ast.literal_eval(change_points)
+# ---------- Helpers ----------
+def change_point_mask(change_points_str, length: int = 100):
+    cps = ast.literal_eval(change_points_str)
     mask = np.zeros(length, dtype=np.int8)
-    for idx in change_points:
+    for idx in cps:
         if 0 <= idx < length:
             mask[idx] = 1
     return mask.tolist()
 
+def pick_col(df: pd.DataFrame, candidates, required=True):
+    for c in candidates:
+        if c in df.columns:
+            return c
+    if required:
+        raise KeyError(f"None of the candidate columns found: {candidates}. Available: {list(df.columns)}")
+    return None
+
 if __name__ == "__main__":
+    # ----- Load inputs -----
     emotions_df = pd.read_csv(EMOTIONS_FILE)
     change_points_df = pd.read_csv(CPS_FILE)
     metadata_df = pd.read_csv(METADATA_FILE)
-    
-    # Add no of change points detected
-    change_points_df['num_change_points'] = change_points_df['change_points'].apply(len)
-    change_points_df['change_points'] = change_points_df['change_points'].apply(change_point_mask)
-    
-    # --- Process Metadata ---
-    # Keep only selected columns
-    metadata_df = metadata_df[[
-        'video_id', 'publishDate', 'duration_sec', 'viewCount', 'likeCount',
-        'channelViewCount', 'subscriberCount', 'channelVideoCount']]
 
-    # Compute days since published (from 2025-07-01)
-    metadata_df['publishDate'] = pd.to_datetime(metadata_df['publishDate'], errors='coerce').dt.tz_localize(None)
+    # Resolve key columns (supports snake_case or camelCase)
+    def has(name): return name in metadata_df.columns
+    video_id_col    = pick_col(metadata_df, [c for c in ["video_id", "videoId"] if has(c)])
+    channel_id_col  = pick_col(metadata_df, [c for c in ["channel_id", "channelId"] if has(c)])
+    publish_col     = pick_col(metadata_df, [c for c in ["publish_date", "publishDate"] if has(c)])
+    duration_col    = pick_col(metadata_df, [c for c in ["duration_sec", "durationSec", "duration_seconds"] if has(c)])
+    view_count_col  = pick_col(metadata_df, [c for c in ["view_count", "viewCount", "views"] if has(c)])
+    like_count_col  = pick_col(metadata_df, [c for c in ["like_count", "likeCount", "likes"] if has(c)])
+    ch_view_col     = pick_col(metadata_df, [c for c in ["channel_view_count", "channelViewCount"] if has(c)], required=False)
+    sub_count_col   = pick_col(metadata_df, [c for c in ["subscriber_count", "subscriberCount"] if has(c)], required=False)
+    ch_video_col    = pick_col(metadata_df, [c for c in ["channel_video_count", "channelVideoCount"] if has(c)], required=False)
+
+    # ----- Change point features -----
+    change_points_df["num_change_points"] = change_points_df["change_points"].apply(
+        lambda s: len(ast.literal_eval(s))
+    )
+    change_points_df["change_points"] = change_points_df["change_points"].apply(change_point_mask)
+
+    # ----- Select & standardize metadata -----
+    keep_cols = [video_id_col, channel_id_col, publish_col, duration_col, view_count_col, like_count_col]
+    if ch_view_col:   keep_cols.append(ch_view_col)
+    if sub_count_col: keep_cols.append(sub_count_col)
+    if ch_video_col:  keep_cols.append(ch_video_col)
+
+    md = metadata_df[keep_cols].copy()
+
+    rename_map = {
+        video_id_col:   "video_id",
+        channel_id_col: "channelId",
+        publish_col:    "publishDate",
+        duration_col:   "duration_sec",
+        view_count_col: "viewCount",
+        like_count_col: "likeCount",
+    }
+    if ch_view_col:   rename_map[ch_view_col]   = "channelViewCount"
+    if sub_count_col: rename_map[sub_count_col] = "subscriberCount"
+    if ch_video_col:  rename_map[ch_video_col]  = "channelVideoCount"
+    md.rename(columns=rename_map, inplace=True)
+
+    # Ensure optional cols exist
+    for opt in ["channelViewCount", "subscriberCount", "channelVideoCount"]:
+        if opt not in md.columns:
+            md[opt] = 0
+
+    # ----- Dates & age features -----
+    md["publishDate"] = pd.to_datetime(md["publishDate"], errors="coerce").dt.tz_localize(None)
     reference_date = datetime(2025, 7, 1)
-    metadata_df['days_published'] = (reference_date - metadata_df['publishDate']).dt.days
-    metadata_df.drop(columns=['publishDate'], inplace=True)
-    
-    feature_columns_to_scale = ['channelViewCount', 'subscriberCount', 'channelVideoCount']
-    target_columns_to_scale = ['viewCount', 'likeCount']
+    md["days_published"] = (reference_date - md["publishDate"]).dt.days
+    md.drop(columns=["publishDate"], inplace=True)
+    md["days_published"] = md["days_published"].fillna(1).clip(lower=1)
 
-    # --- Feature scaler (same as before) ---
+    md["log_age"] = np.log1p(md["days_published"])
+    md["views_per_day"] = md["viewCount"] / md["days_published"]
+    md["likes_per_day"] = md["likeCount"]  / md["days_published"]
+    md["engagement_rate"] = md["likeCount"] / np.clip(md["viewCount"], 1, None)
+
+    # ----- Channel baseline controls (leave-one-out) -----
+    grp = md.groupby("channelId", dropna=False)
+    cnt = grp["video_id"].transform("count").astype(float)
+
+    sum_views = grp["viewCount"].transform("sum")
+    sum_likes = grp["likeCount"].transform("sum")
+
+    md["__er__"] = md["likeCount"] / np.clip(md["viewCount"], 1, None)
+    sum_er = grp["__er__"].transform("sum")
+
+    denom = np.clip(cnt - 1.0, 1.0, None)
+    md["channel_avg_views_loo"] = ((sum_views - md["viewCount"]) / denom).fillna(0)
+    md["channel_avg_likes_loo"] = ((sum_likes - md["likeCount"]) / denom).fillna(0)
+    md["channel_avg_er_loo"]    = ((sum_er   - md["__er__"])   / denom).fillna(0)
+    md.drop(columns="__er__", inplace=True)
+
+    # ----- RELATIVE-TO-CHANNEL features (now that LOO cols exist) -----
+    # Safe fallbacks if any LOO is zero -> use 1 to avoid divide-by-zero
+    md["views_per_day_rel"] = md["views_per_day"] / np.clip(md["channel_avg_views_loo"], 1, None)
+    md["likes_per_day_rel"] = md["likes_per_day"] / np.clip(md["channel_avg_likes_loo"], 1, None)
+
+    # ----- Scale features; save scalers -----
+    feature_columns_to_scale = [
+        "channelViewCount", "subscriberCount", "channelVideoCount",
+        "views_per_day", "likes_per_day", "engagement_rate",
+        "channel_avg_views_loo", "channel_avg_likes_loo", "channel_avg_er_loo",
+        "days_published", "log_age",
+        "views_per_day_rel", "likes_per_day_rel"
+    ]
+    md[feature_columns_to_scale] = md[feature_columns_to_scale].fillna(0)
+
     feature_scaler = RobustScaler()
-    feature_scaler.fit(metadata_df[feature_columns_to_scale])
-    with open('../models/feature_scaler.pkl', 'wb') as file:
-        pickle.dump(feature_scaler, file)
+    feature_scaler.fit(md[feature_columns_to_scale])
+    FEATURE_SCALER_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(FEATURE_SCALER_PATH, "wb") as f:
+        pickle.dump(feature_scaler, f)
 
-    metadata_df[feature_columns_to_scale] = feature_scaler.transform(metadata_df[feature_columns_to_scale])
+    md[feature_columns_to_scale] = feature_scaler.transform(md[feature_columns_to_scale])
 
-    # --- Target scaler on *log* counts; do NOT transform the dataframe here ---
-    log_targets = np.log1p(metadata_df[target_columns_to_scale].values)
+    # ----- Target scaler (fit on log targets) -----
+    target_columns = ["viewCount", "likeCount"]
+    log_targets = np.log1p(md[target_columns].values.astype(np.float32))
     target_scaler = RobustScaler()
     target_scaler.fit(log_targets)
-    with open('../models/target_scaler.pkl', 'wb') as file:
-        pickle.dump(target_scaler, file)
+    with open(TARGET_SCALER_PATH, "wb") as f:
+        pickle.dump(target_scaler, f)
 
-    # --- Merge all dataframes on video_id ---
+    # ----- Merge & Save -----
     df = emotions_df.merge(change_points_df, on="video_id", how="inner")
-    df = df.merge(metadata_df, on="video_id", how="inner")
-    
+    df = df.merge(md, on="video_id", how="inner")
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUTPUT_FILE, index=False)
+    print(f"Saved processed dataset → {OUTPUT_FILE} (rows={len(df)})")
