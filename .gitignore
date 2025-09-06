@@ -209,3 +209,6 @@ notebooks/data
 
 # Model run history
 models/runs
+
+# DS_Store files
+*.DS_Store

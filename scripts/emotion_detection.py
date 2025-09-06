@@ -1,4 +1,4 @@
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 import torch
 import pandas as pd
 from pathlib import Path
@@ -29,6 +29,7 @@ else:
 model.to(device)
 
 id2label = model.config.id2label
+label_columns = [id2label[i] for i in range(len(id2label))]
 threshold = 0.3
 
 # --- FUNCTIONS ---
@@ -83,6 +84,29 @@ def predict_emotions(texts):
         results.append((labels, probs.tolist()))
     return results
 
+def reshape_df(df):
+    try:
+        all_scores = df['scores'].tolist()
+        probs_df = pd.DataFrame(all_scores, columns=label_columns)
+
+        df.drop(columns=["emotions", "scores"], inplace=True)
+        df = pd.concat([df, probs_df], axis=1)
+
+        return df
+    except Exception as e:
+        print(f"Error processing: {e}")
+        
+def get_emotion_df(df):
+    segmented_df = segment_transcript(df)
+    preds = predict_emotions(segmented_df["text"])
+
+    segmented_df["emotions"] = [p[0] for p in preds]
+    segmented_df["scores"] = [p[1] for p in preds]
+    segmented_df["time"] = (segmented_df["start"] + segmented_df["end"]) / 2
+        
+    segmented_df = reshape_df(segmented_df)
+    return segmented_df
+
 # --- PROCESSING LOOP ---
 def process_file(file):
     try:
@@ -92,12 +116,8 @@ def process_file(file):
             return
 
         df = pd.read_csv(file)
-        segmented_df = segment_transcript(df)
-        preds = predict_emotions(segmented_df["text"])
-
-        segmented_df["emotions"] = [p[0] for p in preds]
-        segmented_df["scores"] = [p[1] for p in preds]
-        segmented_df["time"] = (segmented_df["start"] + segmented_df["end"]) / 2
+        
+        segmented_df = get_emotion_df(df)
 
         segmented_df.to_csv(output_file, index=False)
     except Exception as e:
@@ -106,6 +126,7 @@ def process_file(file):
 # --- PARALLEL EXECUTION ---
 if __name__ == "__main__":
     transcript_files = list(TRANSCRIPT_DIR.glob("*.csv"))
+    
     with Pool(6) as pool:
         list(tqdm(pool.imap_unordered(process_file, transcript_files), total=len(transcript_files), desc="Processing transcripts"))
 
