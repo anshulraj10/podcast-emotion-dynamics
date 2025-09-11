@@ -192,3 +192,28 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+.project-structure
+
+
+# Transcripts csv
+data/raw/transcripts
+data/processed
+
+# Cache Data
+data/processed/sequence_cache.npz
+
+# Exploration data
+notebooks/data
+
+# Model run history
+models/runs
+
+# DS_Store files
+*.DS_Store
+
+# Zip files
+*.zip
+
+upload_data_to_hf.py
